@@ -1,14 +1,14 @@
 # folders
-.mixin.out/*
-asm/*
-astralsorcery/*
+.mixin.out
+asm
+astralsorcery
 backups
 crash-reports
 downloads
 local
 logs
-mods/*
-saves/*
+mods
+saves
 mputils
 resourcepacks
 saves
@@ -27,8 +27,8 @@ minecraftinstance.json
 patchouli_data.json
 usercache.json
 usernamecache.json
-textures_*
+#textures_*
 
 #stuff in folders
-config/AppliedEnergistics2/items.csv
-scripts/.zsrc
+#config/AppliedEnergistics2/items.csv
+#scripts/.zsrc
