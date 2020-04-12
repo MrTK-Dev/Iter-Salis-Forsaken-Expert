@@ -27,3 +27,8 @@ minecraftinstance.json
 patchouli_data.json
 usercache.json
 usernamecache.json
+textures_*
+
+#stuff in folders
+config/AppliedEnergistics2/items.csv
+scripts/.zsrc
