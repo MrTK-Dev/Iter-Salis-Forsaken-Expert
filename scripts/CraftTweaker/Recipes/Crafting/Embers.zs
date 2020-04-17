@@ -88,7 +88,7 @@ Recipes.AddShaped({
 <embers:mixer>: [
         [
 	[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], 
-	[<ore:ingotInvar>, <forge:bucketfilled>, <ore:ingotInvar>], 
+	[<ore:ingotInvar>, BucketUsage("caminite_mix"), <ore:ingotInvar>], 
 	[<ore:gearBronze>, <embers:mech_core>, <ore:gearBronze>]
         ]
 ],
@@ -113,6 +113,22 @@ Recipes.AddShaped({
 	[<embers:brick_caminite>, <immersiveengineering:metal_decoration0:4>, <embers:brick_caminite>], 
 	[<embers:brick_caminite>, <minecraft:piston>, <embers:brick_caminite>], 
 	[<embers:brick_caminite>, null, <embers:brick_caminite>]
+        ]
+],
+    //Cinder Plinth
+<embers:cinder_plinth>: [
+        [
+	[null, <ore:plateLead>, null], 
+	[<ore:ingotSilver>, <mysticalagriculture:inferium_furnace>, <ore:ingotSilver>], 
+	[<ore:plateLead>, <embers:block_caminite_brick>, <ore:plateLead>]
+        ]
+],
+    //Pressure Refinery
+<embers:boiler>: [
+        [
+	[<embers:ashen_stone_slab>, <embers:ashen_stone_slab>, <embers:ashen_stone_slab>], 
+	[<minecraft:furnace>, <ore:gearTin>, <minecraft:furnace>], 
+	[<ore:ingotIron>, <ore:blockBronze>, <ore:ingotIron>]
         ]
 ]
 });
@@ -143,5 +159,7 @@ Recipes.Remove([
     <embers:block_furnace>,
     <embers:stamper_base>,
     <embers:stamper>,
-    <embers:mech_accessor>
+    <embers:mech_accessor>,
+    <embers:cinder_plinth>,
+    <embers:boiler>
 ]);

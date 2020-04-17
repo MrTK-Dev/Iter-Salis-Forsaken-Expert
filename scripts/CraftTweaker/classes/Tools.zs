@@ -11,4 +11,5 @@ global tools as IIngredient[string] =
     lens: <ore:artisansLens>,
     burner: <ore:artisansBurner>,
     knife: <ore:artisansKnife>,
+    chisel: <ore:artisansChisel>
 };

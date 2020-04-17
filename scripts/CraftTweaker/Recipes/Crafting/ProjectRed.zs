@@ -19,11 +19,19 @@ Recipes.AddShaped({
 	[<ore:blockRedstone>, <ore:ingotIron>, <ore:blockRedstone>], 
 	[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]
         ]
+    ],
+<projectred-core:resource_item:250>: [
+        [
+	[<ore:compressed1xSand>, <ore:compressed1xSand>, <ore:compressed1xSand>], 
+	[<ore:compressed1xSand>, <ore:blockCoalCoke>, <ore:compressed1xSand>], 
+	[<ore:compressed1xSand>, <ore:compressed1xSand>, <ore:compressed1xSand>]
+        ]
     ]
 });
 
 #|=======|Removes|=======|#
 
 Recipes.Remove([
-    <projectred-core:resource_item:251>
+    <projectred-core:resource_item:251>,
+    <projectred-core:resource_item:250>
 ]);

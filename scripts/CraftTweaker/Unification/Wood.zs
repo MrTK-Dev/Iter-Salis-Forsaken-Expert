@@ -230,7 +230,8 @@ function _LOG(Type as string)
     var Plank as IItemStack = woods[Type].plank;
     var Log as IItemStack = woods[Type].log;
 
-    print(Log.name);
+    print("Plank: " + Plank.name);
+    print("Log: " + Log.name);
 
     /*Recipes.AddShapeless({
         //Without Tools

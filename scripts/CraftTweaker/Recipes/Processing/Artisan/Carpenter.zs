@@ -21,3 +21,15 @@ Artisan.AddShaped(
     //change Fluid
     <liquid:water> * 1000, {}
 );
+
+Artisan.AddShaped(
+    "carpenter", <extrautils2:spike_wood> * 4,
+        [
+	[null, null, null, null, null], 
+	[null, null, <minecraft:wooden_sword>, null, null], 
+	[null, <minecraft:wooden_sword>, <ore:plankWood>, <minecraft:wooden_sword>, null], 
+	[null, <ore:plankWood>, <ore:logWood>, <ore:plankWood>, null]
+        ],
+    {tools.hammer: 3, tools.saw: 5},
+    null, {<ore:dustWood>.firstItem: 0.5}
+);

@@ -20,3 +20,15 @@ Artisan.AddShaped(
     {tools.hammer: 10},
     <liquid:water> * 100, {}
 );
+
+Artisan.AddShaped(
+    "mason", <extrautils2:spike_stone> * 3,
+        [
+	[null, null, null, null, null], 
+	[null, null, <minecraft:stone_sword>, null, null], 
+	[null, <minecraft:stone_sword>, <extrautils2:spike_wood>, <minecraft:stone_sword>, null], 
+	[null, <extrautils2:spike_wood>, <ore:compressed2xCobblestone>, <extrautils2:spike_wood>, null]
+        ],
+    {tools.hammer: 8, tools.chisel: 5},
+    <liquid:stone> * 288, {}
+);

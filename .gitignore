@@ -31,4 +31,8 @@ textures_*
 
 #stuff in folders
 config/AppliedEnergistics2/items.csv
+#config/AppliedEnergistics2/CustomRecipes*
+#config/jei/bookmarks*
+#config/jei/world*
+#config/InvTweaks/InvTweaks.cfg
 scripts/.zsrc
