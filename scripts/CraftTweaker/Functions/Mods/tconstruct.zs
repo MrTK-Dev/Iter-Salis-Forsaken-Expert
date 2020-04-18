@@ -55,6 +55,11 @@ zenClass TConstruct
         Casting.addTableRecipe(Output, Cast, Fluid, Fluid.amount, Consume, Fluid.amount);
     }
 
+    function AddCastingBasinRecipe(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
+    {
+        Casting.addBasinRecipe(Output, Cast, Fluid, Fluid.amount, Consume, Fluid.amount);
+    }
+
     function RemoveCastingTableRecipe(Outputs as IItemStack[])
     {
         for Output in Outputs

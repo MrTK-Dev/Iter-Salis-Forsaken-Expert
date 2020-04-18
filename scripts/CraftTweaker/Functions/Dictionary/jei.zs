@@ -6,6 +6,9 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.data.IData;
 
 import mods.jei.JEI as JustEnoughItems;
+/*
+https://docs.blamejared.com/1.12/en/Mods/JEI/JEI/
+*/
 
 #|=======|Recipes|=======|#
 
@@ -38,8 +41,7 @@ zenClass JEI
     #function HideItemsWithNBTExceptOne(Mod as string, Item as IItemStack, Tag as IData)
     function HideItemsWithNBTExceptOne(ItemMap as IData[IItemStack][string])
     {
-        for Mod, Map in ItemMap
-        {
+        for Mod, Map in ItemMap {
             for Item, Tag in Map {
                 for Stack in loadedMods[Mod].items {
                     if (Stack.definition.name == Item.definition.name && Stack.tag != Tag as IData) {
@@ -50,9 +52,11 @@ zenClass JEI
         }
     }
 
-    function RemoveAndHide()
+    function RemoveAndHide(Items as IIngredient[])
     {
-
+        for Item in Items {
+            JustEnoughItems.removeAndHide(Item);
+        }
     }
 
     function HideCategory(Categories as string[])

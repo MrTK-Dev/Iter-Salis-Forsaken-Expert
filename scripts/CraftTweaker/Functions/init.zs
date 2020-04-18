@@ -15,3 +15,5 @@ global Furnace as scripts.CraftTweaker.Functions.furnace.Furnace = scripts.Craft
 //Dictionary
 global JEI as scripts.CraftTweaker.Functions.Dictionary.jei.JEI = scripts.CraftTweaker.Functions.Dictionary.jei.JEI();
 global DisplayName as scripts.CraftTweaker.Functions.Dictionary.displayname.DisplayName = scripts.CraftTweaker.Functions.Dictionary.displayname.DisplayName();
+global OreDict as scripts.CraftTweaker.Functions.Dictionary.oredict.OreDict = scripts.CraftTweaker.Functions.Dictionary.oredict.OreDict();
+global Tooltips as scripts.CraftTweaker.Functions.Dictionary.tooltips.Tooltips = scripts.CraftTweaker.Functions.Dictionary.tooltips.Tooltips();
