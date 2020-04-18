@@ -1,3 +1,5 @@
+#priority 100
+
 #|=======|Categories|=======|#
 
 JEI.HideCategory([

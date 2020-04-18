@@ -7,10 +7,11 @@
 
 #|=======|Blast Furnace|=======|#
 
-ImmersiveEngineering.AddBlastFurnaceRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:ingotIron>, 600, <ore:itemSlag>.firstItem);
-ImmersiveEngineering.AddBlastFurnaceRecipe(<ore:blockCrudeSteel>.firstItem, <ore:blockIron>, 5400, <ore:itemSlag>.firstItem * 9);
+ImmersiveEngineering.AddBlastFurnace(<ore:ingotCrudeSteel>.firstItem, <ore:ingotIron>, 600, <ore:itemSlag>.firstItem);
+ImmersiveEngineering.AddBlastFurnace(<ore:blockCrudeSteel>.firstItem, <ore:blockIron>, 5400, <ore:itemSlag>.firstItem * 9);
+ImmersiveEngineering.AddBlastFurnace(<ore:bouleSilicon>.firstItem * 2, <ore:compoundCoal>, 250, <ore:itemSlag>.firstItem * 1);
 
-ImmersiveEngineering.RemoveBlastFurnaceRecipe([
+ImmersiveEngineering.RemoveBlastFurnace([
     <immersiveengineering:metal:8>,
     <immersiveengineering:storage:8>
 ]);

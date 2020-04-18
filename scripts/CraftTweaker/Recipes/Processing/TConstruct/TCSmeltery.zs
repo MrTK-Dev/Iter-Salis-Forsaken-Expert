@@ -6,17 +6,32 @@
         [Smeltery Module]
                                 */
 
-#|=======|Alloying|=======|#
+#|=======|Melting|=======|#
 
 TConstruct.RemoveMeltingRecipe([
     <liquid:coal>
 ]);
+
+/*
+    liquid: {
+        Input: [Multiplier, Temp]
+*/
+
+TConstruct.AddMelting({
+    <liquid:silicon>: {
+        <ore:ballSilicon>: [144, 200],
+        <ore:blockSilicon>: [1296, 500]
+    }
+});
 
 #|=======|Alloying|=======|#
 
 TConstruct.AddAlloyingRecipe({
     <liquid:caminite_mix> * 144: [
         <liquid:clay> * 288, <liquid:glass> * 72
+    ],
+    <liquid:electrical_steel> * 144: [
+        <liquid:steel> * 144, <liquid:hop_graphite> * 72, <liquid:silicon> * 144
     ]
 });
 

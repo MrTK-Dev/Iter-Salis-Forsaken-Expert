@@ -14,5 +14,6 @@ CoTBlocks.AddGravel([
 ]);
 
 CoTBlocks.AddStone([
-    "resistive_bricks"
+    "resistive_bricks",
+    "block_silicon"
 ]);

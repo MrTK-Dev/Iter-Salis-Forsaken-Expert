@@ -1,4 +1,4 @@
-#priority 100
+#priority 3499
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.formatting.IFormattedText;

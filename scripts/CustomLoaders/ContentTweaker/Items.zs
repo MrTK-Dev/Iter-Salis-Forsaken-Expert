@@ -10,6 +10,5 @@
 #|=======|Basic Items|=======|#
 
 CoTItems.AddBasic([
-    "Test_1",
-    "banananana"
+
 ]);

@@ -1,4 +1,4 @@
-#priority 100
+#priority 3499
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -13,12 +13,12 @@ zenClass ImmersiveEngineering
     zenConstructor() {
 	}
 
-    function AddBlastFurnaceRecipe(Output as IItemStack, Input as IIngredient, Time as int, Slag as IItemStack)
+    function AddBlastFurnace(Output as IItemStack, Input as IIngredient, Time as int, Slag as IItemStack)
     {
         BlastFurnace.addRecipe(Output, Input, Time, Slag);
     }
 
-    function RemoveBlastFurnaceRecipe(Outputs as IItemStack[])
+    function RemoveBlastFurnace(Outputs as IItemStack[])
     {
         for Output in Outputs
         {

@@ -23,6 +23,14 @@ Recipes.AddShaped({
 	[<extrautils2:decorativeglass:5>, <embers:mech_core>, <extrautils2:decorativeglass:5>], 
 	[<ore:ingotSteel>, <extrautils2:decorativeglass:5>, <ore:ingotSteel>]
         ]
+    ],
+    //Machine Block
+<extrautils2:resonator>: [
+        [
+	[<projectred-core:resource_item:400>, <ore:blockFuelCoke>, <projectred-core:resource_item:400>], 
+	[<ore:ingotElectricalSteel>, <ore:gemRedstone>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
+        ]
     ]
 });
 
@@ -32,5 +40,6 @@ Recipes.Remove([
     <extrautils2:spike_wood>,
     <extrautils2:spike_stone>,
     <extrautils2:machine>,
-    <extrautils2:decorativesolid:4>
+    <extrautils2:decorativesolid:4>,
+    <extrautils2:resonator>
 ]);

@@ -16,7 +16,7 @@ Do not change this unless you know what you are doing!
 |2999-2001|Pre-Dictionary|   |   |
 |2000-1001|Unifier|   |   |
 |1000-101|Post-Dictionary|   |   |
-|101-1|Information|JEI, Renaming, Tooltips|   |
+|100-1|Information|JEI, Renaming, Tooltips|   |
 |0|Crafting Recipes|---|Crafting Recipes in the Vanilla Workbench|
 |-10|   |   |   |
 |-100|Logger|   |Logs stuff to the ingame chat. Togglable|

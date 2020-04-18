@@ -1,4 +1,4 @@
-#priority 100
+#priority 3499
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -15,13 +15,11 @@ zenClass TConstruct
     zenConstructor() {
 	}
 
-    function AddMeltingRecipe(Recipes as int[IIngredient][ILiquidStack])
+    function AddMelting(RecipeMap as int[][IIngredient][ILiquidStack])
     {
-        for Output, Inputs in Recipes
-        {
-            for Input, Temp in Inputs
-            {
-                Melting.addRecipe(Output, Input, Temp);
+        for Output, Recipes in RecipeMap {
+            for Input, Multiplier in Recipes {
+                Melting.addRecipe(Output * Multiplier[0], Input, Multiplier[1]);
             }
         }
     }

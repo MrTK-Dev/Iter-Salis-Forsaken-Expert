@@ -17,5 +17,6 @@ Furnace.RemoveRecipe([
     <tconstruct:materials>,
     <minecraft:brick>,
     <minecraft:glass>,
-    <immersiveengineering:material:19>
+    <immersiveengineering:material:19>,
+    <ore:bouleSilicon>.firstItem
 ]);

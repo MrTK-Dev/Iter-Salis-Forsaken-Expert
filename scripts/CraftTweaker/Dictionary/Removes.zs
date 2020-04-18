@@ -1,3 +1,5 @@
+#priority 100
+
 #|=======|Removes|=======|#
 
 Removes.FullyDisable([
@@ -6,6 +8,7 @@ Removes.FullyDisable([
     <projectred-exploration:backpack:*>,
     <projectred-exploration:wooden_sickle>,
     <projectred-exploration:stone_sickle>,
+    <projectred-exploration:iron_sickle>,
     <projectred-exploration:golden_sickle>,
     <projectred-exploration:ruby_sickle>,
     <projectred-exploration:sapphire_sickle>,

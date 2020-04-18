@@ -1,4 +1,4 @@
-#priority 99
+#priority 3000
 
 //Crafting Recipes
 global Recipes as scripts.CraftTweaker.Functions.recipes.Recipes = scripts.CraftTweaker.Functions.recipes.Recipes();
