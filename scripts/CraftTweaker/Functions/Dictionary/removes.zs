@@ -30,7 +30,7 @@ zenClass Removes
             });*/
 
             Item.addTooltip(format.red("*DISABLED*"));
-            Item.addTooltip("If you got this Item please report to the Dev!");
+            Item.addTooltip("If you got this Item please report it to the Pack-Dev!");
         }
     }
 }

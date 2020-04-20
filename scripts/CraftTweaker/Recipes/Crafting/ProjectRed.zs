@@ -72,6 +72,13 @@ Recipes.AddShaped({
 	[<quark:sturdy_stone>, <ore:coilCopper>, <quark:sturdy_stone>], 
 	[<ore:ingotRedAlloy>, <ore:coilCopper>, <ore:ingotRedAlloy>]
         ]
+    ],
+    //Silicon Boule
+<ore:ballSilicon>.firstItem * 3: [
+        [
+	[ToolUsage("saw", 4)], 
+	[<ore:bouleSilicon>]
+        ]
     ]
 });
 
@@ -80,10 +87,12 @@ Recipes.AddShaped({
 Recipes.Remove([
         //change to
         //<projectred-core:resource_item:*>
-    <projectred-core:resource_item:251>,
-    <projectred-core:resource_item:250>,
     <projectred-core:resource_item:20>,
     <projectred-core:resource_item:21>,
+    <projectred-core:resource_item:250>,
+    <projectred-core:resource_item:251>,
+    <projectred-core:resource_item:300>,
+    <projectred-core:resource_item:301>,
     <projectred-core:resource_item:400>,
     <projectred-core:resource_item:401>,
     <projectred-core:resource_item:402>,

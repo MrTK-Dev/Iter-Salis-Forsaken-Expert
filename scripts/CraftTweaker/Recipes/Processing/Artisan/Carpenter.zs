@@ -31,5 +31,42 @@ Artisan.AddShaped(
 	[null, <ore:plankWood>, <ore:logWood>, <ore:plankWood>, null]
         ],
     {tools.hammer: 3, tools.saw: 5},
-    null, {<ore:dustWood>.firstItem: 0.5}
+    <liquid:plant_fiber> * 750, {<ore:dustWood>.firstItem: 0.5}
+);
+
+Artisan.AddShaped(
+    "carpenter", <exnihilocreatio:hammer_wood>,
+        [
+	[null, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
+	[null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[null, null, <ore:stickWood>, null], 
+	[null, null, <ore:stickWood>, null], 
+	[null, null, <ore:stickWood>, null]
+        ],
+    {tools.hammer: 2, tools.saw: 4},
+    <liquid:plant_fiber> * 500, {<ore:dustWood>.firstItem: 0.5}
+);
+
+Artisan.AddShaped(
+    "carpenter", <minecraft:wooden_pickaxe>,
+        [
+	[null, null, null, null],
+	[null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+	[null, null, <ore:stickWood>, null],
+	[null, null, <ore:stickWood>, null]
+        ],
+    {tools.hammer: 2, tools.saw: 3},
+    <liquid:plant_fiber> * 250, {<ore:dustWood>.firstItem: 0.5}
+);
+
+Artisan.AddShaped(
+    "carpenter", <minecraft:chest>,
+        [
+	[null, null, null, null], 
+	[null, <ore:plankWood>, <ore:logWood>, <ore:plankWood>], 
+	[null, <ore:logWood>, <ore:buttonWood>, <ore:logWood>], 
+	[null, <ore:plankWood>, <ore:logWood>, <ore:plankWood>]
+        ],
+    {tools.hammer: 2, tools.saw: 3},
+    <liquid:plant_fiber> * 250, {<ore:dustWood>.firstItem: 0.75}
 );

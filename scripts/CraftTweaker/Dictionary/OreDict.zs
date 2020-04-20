@@ -12,7 +12,6 @@ OreDict.AddByDictionary({
     "coilGold": [<projectred-core:resource_item:402>],
     "bouleSilicon": [<projectred-core:resource_item:300>],
     "ballSilicon": [<projectred-core:resource_item:301>],
-    "blockSilicon": [<contenttweaker:block_silicon>],
     "compoundCoal": [<projectred-core:resource_item:250>]
 });
 OreDict.AddByItem({

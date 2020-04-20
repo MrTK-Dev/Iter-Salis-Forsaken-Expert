@@ -85,8 +85,6 @@ Recipes.AddShaped({
 #|=======|Removes|=======|#
 
 Recipes.Remove([
-    <immersiveengineering:stone_decoration:10>,
-    //<immersiveengineering:stone_decoration:0>,
     <immersiveengineering:wirecoil>,
     <immersiveengineering:wooden_device0:2>,
     <immersiveengineering:metal_decoration0>,
@@ -98,3 +96,10 @@ Recipes.Remove([
     <immersiveengineering:tool>,
     <immersiveengineering:metal_device1:1>
 ]);
+
+Recipes.RemoveByName({
+   "immersiveengineering": [
+        "stone_decoration/cokebrick",
+        "stone_decoration/blastbrick"
+   ]
+});

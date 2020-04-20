@@ -48,6 +48,13 @@ zenClass TConstruct
         }
     }
 
+    function RemoveAlloy(Outputs as ILiquidStack[])
+    {
+        for Output in Outputs {
+            Alloy.removeRecipe(Output);
+        }
+    }
+
     function AddCastingTableRecipe(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
     {
         Casting.addTableRecipe(Output, Cast, Fluid, Fluid.amount, Consume, Fluid.amount);

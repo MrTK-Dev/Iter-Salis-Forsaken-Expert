@@ -1,3 +1,5 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "h_o_p_graphite_molten": 0
+  }
 }

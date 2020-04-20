@@ -8,5 +8,6 @@ DisplayName.Set({
     <immersivetech:stone_decoration>: "Reinforced Coke Oven Brick",
     <immersiveengineering:stone_decoration:1>: "Blast Furnace Brick",
     <immersiveengineering:stone_decoration:2>: "Reinforced Blast Furnace Brick",
-    <ore:ballSilicon>.firstItem: "Silicon Ball"
+    <ore:ballSilicon>.firstItem: "Silicon Ball",
+    <projectred-core:resource_item:251>: "Red Alloy Compound"
 });

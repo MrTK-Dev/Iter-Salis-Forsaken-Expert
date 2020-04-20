@@ -4,7 +4,9 @@
 
 JEI.HideCategory([
     "Painter",
-    "jeresources.enchantment"
+    "jeresources.enchantment",
+    "forestry.bottler"/*,
+    "EIOTank"*/
 ]);
 
 #|=======|Hide Items|=======|#

@@ -3,11 +3,6 @@
     "fluid": "lava",
     "amount": 250
   },
-  "ore:listAllseed": {
-    "fluid": "seed.oil",
-    "amount": 10,
-    "color": "minecraft:sponge:0"
-  },
   "exnihilocreatio:block_dust:0": {
     "fluid": "lava",
     "amount": 50

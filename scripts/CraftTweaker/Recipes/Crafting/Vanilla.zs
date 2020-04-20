@@ -20,11 +20,6 @@ Recipes.AddShaped({
     //TODO change other chests
 <minecraft:chest>: [
         [
-	[<ore:plankWood>, <ore:logWood>, <ore:plankWood>], 
-	[<ore:logWood>, <ore:buttonWood>, <ore:logWood>], 
-	[<ore:plankWood>, <ore:logWood>, <ore:plankWood>]
-        ],
-        [
 	[<ore:plankTreatedWood>, <ore:logWood>, <ore:plankTreatedWood>], 
 	[<ore:logWood>, <minecraft:stone_button>, <ore:logWood>], 
 	[<ore:plankTreatedWood>, <ore:logWood>, <ore:plankTreatedWood>]
@@ -58,6 +53,29 @@ Recipes.AddShaped({
 	[<quark:sturdy_stone>, <ore:gearAluminum>, <quark:sturdy_stone>], 
 	[<quark:sturdy_stone>, <ore:ingotRedAlloy>, <quark:sturdy_stone>]
         ]
+    ],    
+    //Hopper
+<minecraft:hopper>: [
+        [
+	[<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <tconstruct:wooden_hopper>, <ore:ingotIron>], 
+	[null, <ore:ingotIron>, null]
+        ]
+    ],    
+    //TNT
+<minecraft:tnt>: [
+        [
+	[<ore:gunpowder>, <ore:compressed1xSand>, <ore:gunpowder>], 
+	[<ore:compressed1xSand>, <ore:string>, <ore:compressed1xSand>], 
+	[<ore:gunpowder>, <ore:compressed1xSand>, <ore:gunpowder>]
+        ]
+    ],
+<minecraft:tnt> * 3: [
+        [
+	[<ore:powderMana>, <ore:compressed1xSand>, <ore:powderMana>], 
+	[<ore:compressed1xSand>, BucketUsage("creosote"), <ore:compressed1xSand>], 
+	[<ore:powderMana>, <ore:compressed1xSand>, <ore:powderMana>]
+        ]
     ]
 });
 
@@ -69,5 +87,8 @@ Recipes.Remove([
     <minecraft:compass>,
     <minecraft:clock>,
     <minecraft:piston>,
-    <minecraft:flint_and_steel>
+    <minecraft:flint_and_steel>,
+    <minecraft:wooden_pickaxe>,
+    <minecraft:hopper>,
+    <minecraft:tnt>
 ]);

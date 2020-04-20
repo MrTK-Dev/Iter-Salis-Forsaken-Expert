@@ -130,7 +130,15 @@ Recipes.AddShaped({
 	[<minecraft:furnace>, <ore:gearTin>, <minecraft:furnace>], 
 	[<ore:ingotIron>, <ore:blockBronze>, <ore:ingotIron>]
         ]
-]
+]/*,
+    //Ember Bore
+<embers:ember_bore>: [
+        [
+	[<embers:stairs_caminite_brick>, <ore:blockInvar>, <embers:stairs_caminite_brick>], 
+	[<embers:stairs_caminite_brick>, <embers:mech_core>, <embers:stairs_caminite_brick>], 
+	[<ore:gearDiamond>, <ore:gearDiamond>, <ore:gearDiamond>]
+        ]
+]*/
 });
 
 Recipes.AddShapeless({
@@ -161,5 +169,6 @@ Recipes.Remove([
     <embers:stamper>,
     <embers:mech_accessor>,
     <embers:cinder_plinth>,
-    <embers:boiler>
+    <embers:boiler>,
+    <embers:ember_bore>
 ]);

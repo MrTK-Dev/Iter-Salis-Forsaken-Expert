@@ -17,13 +17,22 @@ Recipes.AddShaped({
         ]
     ],
     //Unfired Clay Plate
-    //TODO Clay Bucket Water Recipe fix
 <ceramics:unfired_clay:8>: [
         [
-	[null, <ore:artisansHammer>.reuse().transformDamage(2)], 
-	[<ore:dust>, <ore:dust>], 
-	[<ore:clay>, <ore:clay>]
+	[ToolUsage("hammer", 2)], 
+	[<ore:dust>], 
+	[<ore:clay>]
         ]
+    ]
+});
+
+Recipes.AddShapeless({
+    //Unfired Porcelain
+<ceramics:unfired_clay:4>: [
+    [ToolUsage("mortar", 2), <ore:itemClay>, <ore:dyeWhite>]
+    ],
+<ceramics:unfired_clay:4> * 2: [
+    [ToolUsage("mortar", 4), <ore:itemClay>, <ore:itemClay>, <ore:dustQuartz>]
     ]
 });
 
@@ -33,3 +42,10 @@ Recipes.Remove([
     <ceramics:unfired_clay>,
     <ceramics:unfired_clay:8>
 ]);
+
+Recipes.RemoveByName({
+    "ceramics": [
+        "decoration/unfired_porcelain_quartz",
+        "decoration/unfired_porcelain_bone_meal"
+    ]
+});

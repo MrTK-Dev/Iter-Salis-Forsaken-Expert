@@ -19,9 +19,9 @@ Recipes.AddShaped({
     //Stone Gear
 <ore:gearStone>.firstItem: [
         [
-	[null, <ore:cobblestone>, null], 
+	[<ore:rodStone>, <ore:cobblestone>, <ore:rodStone>], 
 	[<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>], 
-	[null, <ore:cobblestone>, null]
+	[<ore:rodStone>, <ore:cobblestone>, <ore:rodStone>]
         ]
     ]
 });

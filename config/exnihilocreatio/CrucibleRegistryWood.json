@@ -22,5 +22,18 @@
     "fluid": "water",
     "amount": 250,
     "color": "minecraft:leaves:0"
+  },
+
+
+
+  "hooked:microcrafting:0": {
+    "fluid": "plant_fiber",
+    "amount": 100,
+    "color": "traverse:brown_autumnal_leaves"
+  },
+  "mysticalworld:assorted_seeds": {
+    "fluid": "seed.oil",
+    "amount": 50,
+    "color": "traverse:fir_leaves"
   }
 }

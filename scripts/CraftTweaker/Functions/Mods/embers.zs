@@ -3,9 +3,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+//import stanhebben.zenscript.value.IntRange;
 
 import mods.embers.Melter;
 import mods.embers.Mixer;
+import mods.embers.Alchemy;
 
 #|=======|Recipes|=======|#
 
@@ -35,6 +37,13 @@ zenClass Embers
         for Output in Outputs
         {
             Mixer.remove(Output);
+        }
+    }
+
+    function AddExchangeTablet(Output as IItemStack, Inputs as IIngredient[], Aspects as int[][string])
+    {
+        for Aspect, Values in Aspects {
+            Alchemy.add(Output, Inputs, {Aspect: Values[0] to Values[1]});
         }
     }
 }

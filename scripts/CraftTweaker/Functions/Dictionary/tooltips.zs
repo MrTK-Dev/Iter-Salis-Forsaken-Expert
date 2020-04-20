@@ -3,7 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.formatting.IFormattedText;
 
-#|=======|Recipes|=======|#
+#|=======|Tooltips|=======|#
 
 zenClass Tooltips
 {

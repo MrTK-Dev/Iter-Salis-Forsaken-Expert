@@ -39,7 +39,7 @@ Recipes.AddShaped({
 Recipes.Remove([
     <extrautils2:spike_wood>,
     <extrautils2:spike_stone>,
-    <extrautils2:machine>,
+    //<extrautils2:machine>,
     <extrautils2:decorativesolid:4>,
     <extrautils2:resonator>
 ]);

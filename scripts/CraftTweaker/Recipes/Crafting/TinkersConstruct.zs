@@ -28,12 +28,20 @@ Recipes.AddShaped({
     [<ore:plateCopper>, <minecraft:furnace>, <ore:plateCopper>], 
     [<ore:blockSeared>, <ore:gearStone>, <ore:blockSeared>]
         ]
+    ],
+    //Wooden Hopper
+<tconstruct:wooden_hopper>: [
+        [
+	[<ore:plankWood>, <ore:gearWood>, <ore:plankWood>], 
+	[<ore:plankWood>, <ore:chestWood>, <ore:plankWood>], 
+	[null, <ore:plankWood>, null]
+        ]
     ]
 });
 
 Recipes.AddShapeless({
     //Blank Pattern
-<tconstruct:pattern>: [
+<tconstruct:pattern> * 2: [
     [ToolUsage("saw", 2), <thermalfoundation:material:801>]
     ],
     //EFLN
@@ -48,5 +56,13 @@ Recipes.Remove([
     <tconstruct:soil>,
     <tconstruct:pattern>,
     <tconstruct:smeltery_controller>,
-    <tconstruct:throwball:1>
+    <tconstruct:throwball:1>,
+    <tcomplement:melter>,
+    <tcomplement:melter:8>,
+    <tconstruct:casting>,
+    <tconstruct:casting:1>,
+    <tconstruct:smeltery_io>,
+    <tconstruct:faucet>,
+    <tconstruct:seared_tank>,
+    <tconstruct:wooden_hopper>
 ]);

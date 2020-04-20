@@ -41,4 +41,13 @@ zenClass Recipes
             recipes.remove(Item);
         }
     }
+
+    function RemoveByName(NameMap as string[][string])
+    {
+        for Mod, Names in NameMap {
+            for Name in Names {
+                recipes.removeByRecipeName(Mod + ":" + Name);
+            }
+        }
+    }
 }

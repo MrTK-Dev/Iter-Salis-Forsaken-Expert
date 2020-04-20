@@ -19,8 +19,12 @@ TConstruct.RemoveMeltingRecipe([
 
 TConstruct.AddMelting({
     <liquid:silicon>: {
-        <ore:ballSilicon>: [144, 200],
-        <ore:blockSilicon>: [1296, 500]
+        <ore:ballSilicon>: [144, 400],
+        <ore:blockSilicon>: [1296, 700]
+    },
+    <liquid:h_o_p_graphite>: {
+        <ore:ingotHOPGraphite>: [144, 500],
+        <ore:blockHOPGraphite>: [1296, 800]
     }
 });
 
@@ -31,9 +35,13 @@ TConstruct.AddAlloyingRecipe({
         <liquid:clay> * 288, <liquid:glass> * 72
     ],
     <liquid:electrical_steel> * 144: [
-        <liquid:steel> * 144, <liquid:hop_graphite> * 72, <liquid:silicon> * 144
+        <liquid:steel> * 144, <liquid:h_o_p_graphite> * 72, <liquid:silicon> * 144
     ]
 });
+
+TConstruct.RemoveAlloy([
+    <liquid:bronze>
+]);
 
 #|=======|Casting|=======|#
 
