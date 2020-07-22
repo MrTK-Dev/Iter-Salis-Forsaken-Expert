@@ -15,5 +15,13 @@ Recipes.AddShaped({
 	[<ceramics:clay_hard>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ceramics:clay_hard>], 
 	[<ore:compressed1xCobblestone>, <ore:ingotBrickSeared>, <ore:compressed1xCobblestone>]
         ]
+    ],
+    //Trilobite Fossil
+<contenttweaker:trilobitefossil>: [
+        [
+	[<ore:ingotDarkSteel>, <ore:bone>, <ore:ingotDarkSteel>], 
+	[<ore:bone>, <forestry:bituminous_peat>, <ore:bone>], 
+	[<ore:ingotDarkSteel>, <ore:bone>, <ore:ingotDarkSteel>]
+        ]
     ]
 });

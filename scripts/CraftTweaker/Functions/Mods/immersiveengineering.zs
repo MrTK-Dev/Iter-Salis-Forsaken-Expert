@@ -5,13 +5,35 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.immersiveengineering.BlastFurnace;
-
-#|=======|Recipes|=======|#
+import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.ArcFurnace;
 
 zenClass ImmersiveEngineering
 {
     zenConstructor() {
 	}
+
+    #|=======|Variables|=======|#
+
+    var Energy as int[string] = {
+        MetalPress: 2000,
+        ArcFurnace: 2048
+    };
+
+    var Time as int[string] = {
+        MetalPress: 500,
+        ArcFurnace: 2000
+    };
+
+    var Molds as IItemStack[string][string] = {
+        Plate: {
+            mold: <immersiveengineering:mold:0>
+        }
+    };
+
+    var Slag as IItemStack = <ore:itemSlag>.firstItem;
+
+    #|=======|Functions|=======|#
 
     function AddBlastFurnace(Output as IItemStack, Input as IIngredient, Time as int, Slag as IItemStack)
     {
@@ -39,6 +61,41 @@ zenClass ImmersiveEngineering
         for Fuel in Fuels
         {
             BlastFurnace.removeFuel(Fuel);
+        }
+    }
+
+    function AddMetalPress(RecipeMap as IIngredient[IItemStack][string])
+    {
+        for Mold, Recipe in RecipeMap {
+            for Output, Input in Recipe {
+                MetalPress.addRecipe(Output, Input.amount(1), Molds[Mold].mold, Energy.MetalPress, Input.amount);
+                //MetalPress.addRecipe(Output, Input.amount(1), <immersiveengineering:mold:0>, Energy.MetalPress, Input.amount);
+            }
+        }
+    }
+
+    function AddBlueprint()
+    {
+        
+    }
+
+    function AddArcFurnace(Recipes as IIngredient[][IIngredient][IItemStack][string])
+    {
+        for Type, Recipe in Recipes {
+            for Output, InputList in Recipe {
+                for Input, Inputs in InputList {
+                    ArcFurnace.addRecipe(Output, Input, Slag, Time.ArcFurnace, Energy.ArcFurnace, Inputs, Type);
+                    
+                    print("ArcFurnace Recipe for " + Output.name);
+                }
+            }
+        }
+    }
+
+    function RemoveArcFurnace(Outputs as IItemStack[])
+    {
+        for Output in Outputs {
+            ArcFurnace.removeRecipe(Output);
         }
     }
 }

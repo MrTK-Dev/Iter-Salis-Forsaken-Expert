@@ -31,6 +31,22 @@ Recipes.AddShaped({
 	[<ore:ingotElectricalSteel>, <ore:gemRedstone>, <ore:ingotElectricalSteel>], 
 	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
         ]
+    ],
+    //Manual Mill
+<extrautils2:passivegenerator:7>: [
+        [
+	[<ore:ingotElectricalSteel>, <ore:gemRedstone>, <ore:ingotElectricalSteel>], 
+	[<ore:plateRedAlloy>, <ore:gearRedstone>, <ore:plateRedAlloy>], 
+	[<ore:ingotElectricalSteel>, <ore:gemRedstone>, <ore:ingotElectricalSteel>]
+        ]
+    ],
+    //Manual Mill
+<extrautils2:machine>.withTag({Type: "extrautils2:generator"}): [
+        [
+	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>], 
+	[<ore:transistor>, <extrautils2:machine>, <ore:transistor>], 
+	[<ore:gearRedAlloy>, <tconstruct:seared_furnace_controller>, <ore:gearRedAlloy>]
+        ]
     ]
 });
 
@@ -41,5 +57,6 @@ Recipes.Remove([
     <extrautils2:spike_stone>,
     //<extrautils2:machine>,
     <extrautils2:decorativesolid:4>,
-    <extrautils2:resonator>
+    <extrautils2:resonator>,
+    <extrautils2:passivegenerator:7>
 ]);

@@ -28,12 +28,21 @@ Recipes.AddShaped({
 	[<tconstruct:brownstone>, <tconstruct:brownstone>, null], 
 	[<tconstruct:brownstone>, <tconstruct:brownstone>, null]
         ]
-]
+    ],
+    //Imbuer
+<roots:imbuer>: [
+        [
+	[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], 
+	[null, <ore:compressed2xCobblestone>, null], 
+	[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]
+        ]
+    ]
 });
 
 #|=======|Removes|=======|#
 
 Recipes.Remove([
     <roots:mortar>,
-    <roots:pestle>
+    <roots:pestle>,
+    <roots:imbuer>
 ]);

@@ -36,6 +36,14 @@ Recipes.AddShaped({
 	[<ore:plankWood>, <ore:chestWood>, <ore:plankWood>], 
 	[null, <ore:plankWood>, null]
         ]
+    ],
+    //Seared Furnace Controller
+<tconstruct:seared_furnace_controller>: [
+        [
+	[<ore:ingotBrickSeared>, <ore:blockRedstone>, <ore:ingotBrickSeared>], 
+	[<ore:ingotBrickSeared>, <minecraft:furnace>, <ore:ingotBrickSeared>], 
+	[<ore:ingotBrickSeared>, <ore:essenceInferium>, <ore:ingotBrickSeared>]
+        ]
     ]
 });
 
@@ -64,5 +72,6 @@ Recipes.Remove([
     <tconstruct:smeltery_io>,
     <tconstruct:faucet>,
     <tconstruct:seared_tank>,
-    <tconstruct:wooden_hopper>
+    <tconstruct:wooden_hopper>,
+    <tconstruct:seared_furnace_controller>
 ]);

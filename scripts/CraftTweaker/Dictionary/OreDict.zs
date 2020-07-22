@@ -12,7 +12,9 @@ OreDict.AddByDictionary({
     "coilGold": [<projectred-core:resource_item:402>],
     "bouleSilicon": [<projectred-core:resource_item:300>],
     "ballSilicon": [<projectred-core:resource_item:301>],
-    "compoundCoal": [<projectred-core:resource_item:250>]
+    "compoundCoal": [<projectred-core:resource_item:250>],
+    "waferSilicon": [<immersiveintelligence:material_plate:5>],
+    "coreDark": [<contenttweaker:dark_core>]
 });
 OreDict.AddByItem({
     
@@ -21,8 +23,10 @@ OreDict.AddByItem({
 #|=======|Removes|=======|#
 
 OreDict.RemoveByDictionary({
-    "stickWood": [<evilcraft:dark_stick>]
+    "stickWood": [<evilcraft:dark_stick>],
+    "plateSilicon": [<immersiveintelligence:material_plate:5>]
 });
+
 OreDict.RemoveByItem({
     
 });

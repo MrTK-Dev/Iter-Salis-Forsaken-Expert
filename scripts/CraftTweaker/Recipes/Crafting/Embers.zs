@@ -130,7 +130,7 @@ Recipes.AddShaped({
 	[<minecraft:furnace>, <ore:gearTin>, <minecraft:furnace>], 
 	[<ore:ingotIron>, <ore:blockBronze>, <ore:ingotIron>]
         ]
-]/*,
+],
     //Ember Bore
 <embers:ember_bore>: [
         [
@@ -138,7 +138,23 @@ Recipes.AddShaped({
 	[<embers:stairs_caminite_brick>, <embers:mech_core>, <embers:stairs_caminite_brick>], 
 	[<ore:gearDiamond>, <ore:gearDiamond>, <ore:gearDiamond>]
         ]
-]*/
+],
+    //Sealed Planks
+<embers:sealed_planks> * 8: [
+        [
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[<ore:plankWood>, <tconstruct:edible:30>, <ore:plankWood>], 
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+        ]
+],
+    //Item Vacuum
+<embers:vacuum>: [
+        [
+	[null, <ore:plateLead>, <ore:plateLead>], 
+	[<embers:item_pipe>, <ore:electronTube>, <ore:electronTube>], 
+	[null, <ore:plateLead>, <ore:plateLead>]
+        ]
+]
 });
 
 Recipes.AddShapeless({
@@ -170,5 +186,11 @@ Recipes.Remove([
     <embers:mech_accessor>,
     <embers:cinder_plinth>,
     <embers:boiler>,
-    <embers:ember_bore>
+    <embers:ember_bore>,
+    <embers:vacuum>
 ]);
+
+Recipes.RemoveByName({
+   "embers": [
+        "sealed_planks"
+]});

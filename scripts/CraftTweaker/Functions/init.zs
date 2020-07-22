@@ -8,6 +8,8 @@ global Artisan as scripts.CraftTweaker.Functions.Mods.artisan.Artisan = scripts.
 global TConstruct as scripts.CraftTweaker.Functions.Mods.tconstruct.TConstruct = scripts.CraftTweaker.Functions.Mods.tconstruct.TConstruct();
 global ImmersiveEngineering as scripts.CraftTweaker.Functions.Mods.immersiveengineering.ImmersiveEngineering = scripts.CraftTweaker.Functions.Mods.immersiveengineering.ImmersiveEngineering();
 global Embers as scripts.CraftTweaker.Functions.Mods.embers.Embers = scripts.CraftTweaker.Functions.Mods.embers.Embers();
+global Forestry as scripts.CraftTweaker.Functions.Mods.forestry.Forestry = scripts.CraftTweaker.Functions.Mods.forestry.Forestry();
+global Roots as scripts.CraftTweaker.Functions.Mods.roots.Roots = scripts.CraftTweaker.Functions.Mods.roots.Roots();
 
 //Vanilla
 global Furnace as scripts.CraftTweaker.Functions.furnace.Furnace = scripts.CraftTweaker.Functions.furnace.Furnace();

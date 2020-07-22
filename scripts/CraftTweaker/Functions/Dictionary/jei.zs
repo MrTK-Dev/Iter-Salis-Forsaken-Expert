@@ -71,4 +71,11 @@ zenClass JEI
     {
 
     }
+
+    function AddItem(Items as IItemStack[])
+    {
+        for Item in Items {
+            JustEnoughItems.addItem(Item);
+        }
+    }
 }

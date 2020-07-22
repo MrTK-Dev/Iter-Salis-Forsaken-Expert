@@ -21,7 +21,8 @@ global woods as IItemStack[string][string] =
         bark: <roots:bark_oak>,
         leaves: <minecraft:leaves>,
         chest: <minecraft:chest>,
-        vertical: <quark:vertical_planks>
+        vertical: <quark:vertical_planks>,
+        drawer: null
     },
     spruce: {
         log: <minecraft:log:1>,
@@ -40,7 +41,8 @@ global woods as IItemStack[string][string] =
         bark: <roots:bark_spruce>,
         leaves: <minecraft:leaves:1>,
         chest: <quark:custom_chest>,
-        vertical: <quark:vertical_planks:1>
+        vertical: <quark:vertical_planks:1>,
+        drawer: null
     },
     birch: {
         plank: <minecraft:planks:2>,
@@ -62,7 +64,8 @@ global woods as IItemStack[string][string] =
         pressure: <quark:birch_pressure_plate>,
         button: <quark:birch_button>,
         bark: <roots:bark_birch>,
-        vertical: <quark:vertical_planks:2>
+        vertical: <quark:vertical_planks:2>,
+        drawer: null
     }
 };
 

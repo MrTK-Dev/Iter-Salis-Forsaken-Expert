@@ -79,6 +79,14 @@ Recipes.AddShaped({
 	[<ore:ingotConstantan>, <immersiveengineering:metal_decoration0>, <ore:ingotConstantan>], 
 	[<ore:barsIron>, <ore:ingotRedAlloy>, <ore:barsIron>]
         ]
+    ],
+    //Insulated Glass
+<immersiveengineering:stone_decoration:8> * 2: [
+        [
+	[<ore:projredInsulatedWire>, <ore:blockGlassColorless>, <ore:projredInsulatedWire>], 
+	[<ore:dustIron>, <ore:dyeGreen>, <ore:dustIron>], 
+	[<ore:projredInsulatedWire>, <ore:blockGlassColorless>, <ore:projredInsulatedWire>]
+        ]
     ]
 });
 
@@ -94,7 +102,8 @@ Recipes.Remove([
     <immersiveengineering:material:8>,
     <immersiveengineering:material:9>,
     <immersiveengineering:tool>,
-    <immersiveengineering:metal_device1:1>
+    <immersiveengineering:metal_device1:1>,
+    <immersiveengineering:stone_decoration:8>
 ]);
 
 Recipes.RemoveByName({

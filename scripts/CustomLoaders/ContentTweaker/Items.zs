@@ -10,5 +10,6 @@
 #|=======|Basic Items|=======|#
 
 CoTItems.AddBasic([
-
+    "dark_core",
+    "trilobitefossil"
 ]);

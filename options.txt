@@ -90,13 +90,13 @@ key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_next:0
-key_roots.keybinds.spell_slot_2:0
 key_roots.keybinds.spell_slot_3:0
-key_roots.keybinds.spell_slot_previous:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_2:0
 key_roots.keybinds.spell_slot_5:0
+key_roots.keybinds.spell_slot_previous:0
+key_roots.keybinds.spell_slot_next:0
+key_roots.keybinds.spell_slot_4:0
 key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -144,6 +144,10 @@ key_key.ftbquests.quests:51
 key_key.hooked.fire:46
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
+key_simplyjetpacks.keybind.engine:34
+key_simplyjetpacks.keybind.hover:38
+key_simplyjetpacks.keybind.charger:25
+key_simplyjetpacks.keybind.emergencyhover:19
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -154,10 +158,6 @@ key_schematica.key.renderToggle:0
 key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:-98:SHIFT
-key_simplyjetpacks.keybind.engine:34
-key_simplyjetpacks.keybind.hover:38
-key_simplyjetpacks.keybind.charger:25
-key_simplyjetpacks.keybind.emergencyhover:19
 key_key.open_wct.desc:0
 key_key.cycle_magnet_mode.desc:0
 key_Strip World:211
@@ -187,16 +187,6 @@ key_key.toggleDislocator:0
 key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
 key_key.toggleShields:0
-key_nei.options.keys.gui.botania_corporea_request:46
-key_key.infinity_armor.noclip:40
-key_key.settings_menu:34
-key_key.range:19
-key_key.undo:22
-key_key.anchor:35
-key_key.fuzzy:0
-key_key.connected_area:0
-key_key.rotate_mirror:0
-key_key.material_list:50
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -212,6 +202,16 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
+key_nei.options.keys.gui.botania_corporea_request:46
+key_key.infinity_armor.noclip:40
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -226,6 +226,7 @@ key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.immersiveintelligence.mgScope:44
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
@@ -242,7 +243,15 @@ key_key.little.mark:50
 key_key.little.config.item:46
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
+key_key.plustic_release_entity.desc:11
+key_key.plustic_toggle_gui.desc:23
+key_key.plustic_set_portal.desc:49
+key_key.plustic_brown_magic.desc:24
+key_key.plustic_toggle_tool.desc:51:ALT
+key_key.plustic_fruit_salad.desc:12:ALT
+key_key.plustic_mots.desc:13:ALT
 key_Quick Commands:83
+key_key.nutrition:49
 key_key.taiga.alt_action:29
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
@@ -287,7 +296,7 @@ soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.4225352
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0

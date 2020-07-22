@@ -211,30 +211,20 @@ zenClass WoodUnifier
 
 //WoodUnifier.Init();
 
-for Type, Wood in woods
-{
-    for PartName, Part in Wood
-    {
-        print(Part.name);
-
-        if (PartName == "log" & Wood has "log" & !isNull(woods[Type].log))
-        {
-            _LOG(Type);
-        }
-    }
-}
 
 
+/*
 function _LOG(Type as string)
 {
     var Plank as IItemStack = woods[Type].plank;
     var Log as IItemStack = woods[Type].log;
 
     print("Plank: " + Plank.name);
-    print("Plank 2:" + Plank.definition.name);
+    print("Plank 2:" + Plank.displayName);
     print("Log: " + Log.name);
+    print("Log 2: " + Log.displayName);
 
-    /*Recipes.AddShapeless({
+    Recipes.AddShapeless({
         //Without Tools
     Plank: [
         [Log]
@@ -242,7 +232,38 @@ function _LOG(Type as string)
     Plank * 2: [
         [ToolUsage("saw", 2), Log]
         ]
-    });*/
+    });
 
     recipes.addShapeless(Plank, [Log]);
+}
+*/
+
+for Name, Wood in woods
+{
+    /*
+    for PartName, Part in Wood
+    {
+        print("[Unifier:Wood] " + Type);
+
+        if (PartName == "log" & Wood has "log" & !isNull(woods[Type].log))
+        {
+            //_LOG(Type);
+            woods[Type].log.addTooltip("Yolo###");
+        }
+    }
+    */
+
+    print("===== [Unifier:Woods] Starting to unify - {" + Name + "} =====");
+
+    if (Wood has "log" & !isNull(woods[Name].log))
+    {
+        woods[Name].log.addTooltip("XXXXXXXXXXXXXXXX");
+    }
+
+    if (Wood has "drawer" & isNull(woods[Name].log))
+    {
+        
+    }
+
+    print("===== [Unifier:Woods] Finished unifying - {" + Name + "} =====");
 }

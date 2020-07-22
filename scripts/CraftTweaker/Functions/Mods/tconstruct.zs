@@ -19,12 +19,12 @@ zenClass TConstruct
     {
         for Output, Recipes in RecipeMap {
             for Input, Multiplier in Recipes {
-                Melting.addRecipe(Output * Multiplier[0], Input, Multiplier[1]);
+                Melting.addRecipe(Output * Multiplier[0], Input, Multiplier[1] + 300);
             }
         }
     }
 
-    function RemoveMeltingRecipe(Outputs as ILiquidStack[])
+    function RemoveMelting(Outputs as ILiquidStack[])
     {
         for Output in Outputs
         {
@@ -32,7 +32,7 @@ zenClass TConstruct
         }
     }
 
-    function RemoveMeltingRecipeByInput(Recipes as IItemStack[ILiquidStack])
+    function RemoveMeltingByInput(Recipes as IItemStack[ILiquidStack])
     {
         for Output, Input in Recipes
         {
@@ -40,7 +40,7 @@ zenClass TConstruct
         }
     }
 
-    function AddAlloyingRecipe(Recipes as ILiquidStack[][ILiquidStack])
+    function AddAlloying(Recipes as ILiquidStack[][ILiquidStack])
     {
         for Output, Inputs in Recipes
         {
@@ -55,17 +55,17 @@ zenClass TConstruct
         }
     }
 
-    function AddCastingTableRecipe(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
+    function AddCastingTable(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
     {
         Casting.addTableRecipe(Output, Cast, Fluid, Fluid.amount, Consume, Fluid.amount);
     }
 
-    function AddCastingBasinRecipe(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
+    function AddCastingBasin(Output as IItemStack, Cast as IIngredient, Fluid as ILiquidStack, Consume as bool)
     {
         Casting.addBasinRecipe(Output, Cast, Fluid, Fluid.amount, Consume, Fluid.amount);
     }
 
-    function RemoveCastingTableRecipe(Outputs as IItemStack[])
+    function RemoveCastingTable(Outputs as IItemStack[])
     {
         for Output in Outputs
         {
@@ -73,11 +73,19 @@ zenClass TConstruct
         }
     }
 
-    function RemoveCastingTableRecipeByFluid(Outputs as ILiquidStack[IItemStack])
+    function RemoveCastingTableByFluid(Outputs as ILiquidStack[IItemStack])
     {
         for Output, Fluid in Outputs
         {
             Casting.removeTableRecipe(Output, Fluid);
+        }
+    }
+
+    function RemoveCastingBasin(Outputs as IItemStack[])
+    {
+        for Output in Outputs
+        {
+            Casting.removeBasinRecipe(Output);
         }
     }
 }
