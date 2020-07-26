@@ -9,6 +9,31 @@ Releases marked with "- A(lpha)" are only Commits in the Development of the Pack
 
 ## [Unreleased]
 
+## [0.0.2 - Alpha] - 22/07/2020
+
+### Added
+
+- Builder's Bag (latest Version)
+- Akashic Tome (latest Version)
+
+### Changed
+
+- Turned off Slime Islands
+- Turned off Bewitchment Silver Ore Generation
+- Turned off Forestry Copper Ore Generation
+- ThaumicJEI Aspects are now part of .gitignore
+
+#### Mod Updates
+
+- Updated Actually Additions to the latest version
+- Updated /dank/null to the latest version
+- Updated AppleSkin to the latest version
+- Updated Bewitchment to the latest version
+- Updated Dynamistics to the latest version
+- Updated CraftTweaker to the latest version
+- Updated Creative Core to the latest version
+- Updated Little Tiles to the latest version
+
 ## [0.0.1 - Alpha] - 20/04/2020
 
 ### Added

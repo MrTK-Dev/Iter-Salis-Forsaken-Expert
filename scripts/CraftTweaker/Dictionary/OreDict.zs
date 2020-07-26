@@ -24,7 +24,8 @@ OreDict.AddByItem({
 
 OreDict.RemoveByDictionary({
     "stickWood": [<evilcraft:dark_stick>],
-    "plateSilicon": [<immersiveintelligence:material_plate:5>]
+    "plateSilicon": [<immersiveintelligence:material_plate:5>],
+    "leather": [<roots:fey_leather>]
 });
 
 OreDict.RemoveByItem({
