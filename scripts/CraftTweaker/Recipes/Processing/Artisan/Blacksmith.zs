@@ -21,7 +21,7 @@ Artisan.AddShaped(
     {tools.hammer: 6},
     <liquid:creosote> * 400, {}
 );
-*/
+
 
 Artisan.AddShaped(
     "blacksmith", <embers:ember_detector>,
@@ -49,7 +49,7 @@ Artisan.AddShaped(
     <liquid:glass> * 2000, {}
 );
 
-/*
+
 Artisan.AddShaped(
     "blacksmith", <immersiveengineering:tool>,
         [
@@ -62,7 +62,7 @@ Artisan.AddShaped(
     {tools.hammer: 4, tools.saw: 4},
     <liquid:water> * 1000, {}
 );
-*/
+
 
 Artisan.AddShaped(
     "blacksmith", <minecraft:flint_and_steel>,
@@ -75,3 +75,4 @@ Artisan.AddShaped(
     {tools.hammer: 7},
     <liquid:creosote> * 1000, {}
 );
+*/

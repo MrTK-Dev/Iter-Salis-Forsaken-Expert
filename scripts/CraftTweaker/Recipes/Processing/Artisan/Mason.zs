@@ -7,7 +7,7 @@
                                 */
 
 #|=======|Additions|=======|#
-
+/*
 Artisan.AddShaped(
     "mason", <extrautils2:spike_stone> * 3,
         [
@@ -128,3 +128,4 @@ Artisan.AddShaped(
     {tools.hammer: 10},
     <liquid:stone> * 1296, {}
 );
+*/

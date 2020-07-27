@@ -7,7 +7,7 @@
                                 */
 
 #|=======|Additions|=======|#
-
+/*
 Artisan.AddShaped(
     "engineer", <forestry:sturdy_machine>,
         [
@@ -56,3 +56,4 @@ Artisan.AddShaped(
     {tools.hammer: 5, tools.driver: 5},
     <liquid:silicon> * 144, {}
 );
+*/

@@ -7,7 +7,7 @@
                                 */
 
 #|=======|Additions|=======|#
-
+/*
 Artisan.AddShaped(
     "carpenter", <immersiveengineering:wooden_device0:2>,
         [
@@ -70,3 +70,4 @@ Artisan.AddShaped(
     {tools.hammer: 2, tools.saw: 3},
     <liquid:plant_fiber> * 250, {<ore:dustWood>.firstItem: 0.75}
 );
+*/

@@ -34,17 +34,17 @@ itemsColor:12
 otherColor:5
 otherTeamColor:-1
 mapSafeMode:false
-minimapOpacity:100.0
+minimapOpacity:95.0
 waypointsScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
 dotsScale:1.0
 compassOverWaypoints:false
-showBiome:false
+showBiome:true
 showEntityHeight:true
 showFlowers:true
-keepWaypointNames:false
+keepWaypointNames:true
 waypointsDistance:0.0
 waypointsDistanceMin:0.0
 waypointTp:tp
@@ -57,7 +57,7 @@ worldMap:true
 terrainDepth:true
 terrainSlopes:true
 terrainSlopesExperiment:false
-alwaysArrow:false
+mainEntityAs:0
 blockTransparency:true
 waypointOpacityIngame:80
 waypointOpacityMap:90
@@ -67,7 +67,7 @@ alwaysShowDistance:false
 playerNames:true
 showLightLevel:false
 renderLayerIndex:1
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:20
 lookingAtAngleVertical:180
@@ -76,9 +76,15 @@ zoomedOutEnlarged:false
 entityNametags:false
 minimapTextAlign:0
 showAngles:false
-interface:dummy:0:0:true:false:false:false
+waypointsMutualEdit:true
+compass:true
+caveMapsDepth:30
+hideWaypointCoordinates:false
+renderAllSets:false
+playerArrowOpacity:100
+interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:0:0:false:false:false:false
-#WAYPOINTS HAVE BEEN MOVED TO xaerowaypoints.txt!
+interface:gui.xaero_minimap:130:1:false:false:true:false
+#WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

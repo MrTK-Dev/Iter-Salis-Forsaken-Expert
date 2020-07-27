@@ -1,4 +1,4 @@
-#priority 2000
+#priority 1000
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -211,59 +211,147 @@ zenClass WoodUnifier
 
 //WoodUnifier.Init();
 
-
-
 /*
-function _LOG(Type as string)
+zenClass WoodUnifier
 {
-    var Plank as IItemStack = woods[Type].plank;
-    var Log as IItemStack = woods[Type].log;
+    zenConstructor() {
+	}
 
-    print("Plank: " + Plank.name);
-    print("Plank 2:" + Plank.displayName);
-    print("Log: " + Log.name);
-    print("Log 2: " + Log.displayName);
+    function Init()
+    {*/
+        #|=======|Variables|=======|#
 
-    Recipes.AddShapeless({
-        //Without Tools
-    Plank: [
-        [Log]
-        ],
-    Plank * 2: [
-        [ToolUsage("saw", 2), Log]
-        ]
-    });
+        var Sawdust as IItemStack = <ore:dustWood>.firstItem;
 
-    recipes.addShapeless(Plank, [Log]);
-}
-*/
+        #|=======|Recipes|=======|#
 
-for Name, Wood in woods
-{
-    /*
-    for PartName, Part in Wood
-    {
-        print("[Unifier:Wood] " + Type);
+        Recipes.AddShaped({
+            //Stick
+        <minecraft:stick> * 2: [
+                [
+            [<ore:plankWood>], 
+            [<ore:plankWood>]
+                ]
+            ]
+        });
 
-        if (PartName == "log" & Wood has "log" & !isNull(woods[Type].log))
+        Artisan.AddShaped(
+            "carpenter", <minecraft:stick> * 4, [
+            [<ore:plankWood>],
+            [<ore:plankWood>]
+                ],
+            {tools.saw: 3},
+            <liquid:water> * 50, {<ore:dustWood>.firstItem: 0.15}
+        );
+
+        #|=======|Unifier|=======|#
+
+        for Name, Wood in woods
         {
-            //_LOG(Type);
-            woods[Type].log.addTooltip("Yolo###");
+            print("===== [Unifier:Woods] Starting to unify - {" + Name + "} =====");
+
+            if (Wood has "planks" & !isNull(woods[Name].planks))
+            {
+                var Planks = woods[Name].planks as IItemStack;
+
+                Planks.addTooltip("XXXXXXXXXXXXXXXXPLank");
+
+                if (Wood has "log" & !isNull(woods[Name].log))
+                {
+                    var Log = woods[Name].log as IItemStack;
+
+                    Log.addTooltip("XXXXXXXXXXXXXXXXLog");
+
+                    /*Log to Planks*/
+                    recipes.addShapeless("uni_" + Name + "_log_to_planks", Planks * 2, [
+                        Log
+                    ]);
+
+                    Artisan.AddShaped(
+                        "carpenter", Planks * 3, [
+                        [Log]
+                            ],
+                        {tools.saw: 3},
+                        <liquid:water> * 50, {<ore:dustWood>.firstItem: 0.2}
+                    );
+                }
+
+                if (Wood has "boat" & !isNull(woods[Name].boat))
+                {
+                    var Boat = woods[Name].boat as IItemStack;
+
+                    Boat.addTooltip("XXXXXXXXXXXXXXXXBoat");
+
+                    recipes.remove(Boat);
+
+                    /*Planks to Boat*/
+                    Artisan.AddShaped(
+                        "carpenter", Boat, [
+                        [null, <ore:stickWood>, null], 
+                        [Planks, <ore:fiberHemp>, Planks], 
+                        [Planks, Planks, Planks]
+                            ],
+                        {tools.saw: 3},
+                        <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
+                    );
+                }
+
+                if (Wood has "door" & !isNull(woods[Name].door))
+                {
+                    var Door = woods[Name].door as IItemStack;
+
+                    Door.addTooltip("XXXXXXXXXXXXXXXXDoor");
+
+                    recipes.remove(Door);
+
+                    /*Planks to Door*/
+                    if (Wood has "button" & !isNull(woods[Name].button)) {
+                        Artisan.AddShaped(
+                            "carpenter", Door, [
+                            [Planks, Planks, null], 
+                            [Planks, Planks, woods[Name].button], 
+                            [Planks, Planks, null]
+                                ],
+                            {tools.saw: 3},
+                            <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
+                        );
+                    }
+                    else {
+                        Artisan.AddShaped(
+                            "carpenter", Door, [
+                            [Planks, Planks, null], 
+                            [Planks, Planks, <ore:buttonWood>], 
+                            [Planks, Planks, null]
+                                ],
+                            {tools.saw: 3},
+                            <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
+                        );
+                    }
+                }
+
+                if (Wood has "button" & !isNull(woods[Name].button))
+                {
+                    var Button = woods[Name].button as IItemStack;
+
+                    Button.addTooltip("XXXXXXXXXXXXXXXXButton");
+
+                    recipes.remove(Button);
+
+                    /*Planks to Button*/
+                    recipes.addShapeless("uni_" + Name + "_planks_to_button", Button, [
+                        Planks
+                    ]);
+                }
+            }
+        /*
+            if (Wood has "drawer" & isNull(woods[Name].log))
+            {
+                
+            }
+        */
+            print("===== [Unifier:Woods] Finished unifying - {" + Name + "} =====");
         }
-    }
-    */
-
-    print("===== [Unifier:Woods] Starting to unify - {" + Name + "} =====");
-
-    if (Wood has "log" & !isNull(woods[Name].log))
-    {
-        woods[Name].log.addTooltip("XXXXXXXXXXXXXXXX");
-    }
-
-    if (Wood has "drawer" & isNull(woods[Name].log))
-    {
-        
-    }
-
-    print("===== [Unifier:Woods] Finished unifying - {" + Name + "} =====");
+    /*}
 }
+
+WoodUnifier.Init();*/

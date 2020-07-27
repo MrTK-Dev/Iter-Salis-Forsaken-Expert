@@ -1,4 +1,4 @@
-#priority 1000
+#priority 2500
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -14,10 +14,11 @@ OreDict.AddByDictionary({
     "ballSilicon": [<projectred-core:resource_item:301>],
     "compoundCoal": [<projectred-core:resource_item:250>],
     "waferSilicon": [<immersiveintelligence:material_plate:5>],
-    "coreDark": [<contenttweaker:dark_core>]
+    "coreDark": [<contenttweaker:dark_core>],
+    "rodBlackIron:": [<extendedcrafting:material:3>]
 });
 OreDict.AddByItem({
-    
+ 
 });
 
 #|=======|Removes|=======|#

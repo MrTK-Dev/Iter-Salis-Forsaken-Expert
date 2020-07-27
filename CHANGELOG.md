@@ -13,7 +13,13 @@ Releases marked with "- A(lpha)" are only Commits in the Development of the Pack
 
 ### Added
 
+- new functions in the AE class
+
 ### Changed
+
+- configured Minimap settings
+- player no longer spawns with the valkyrieLib & astral sorcery guide
+- changed artisan to have tables instead of shops
 
 ### Removed
 
