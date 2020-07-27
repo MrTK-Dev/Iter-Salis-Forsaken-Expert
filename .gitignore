@@ -17,6 +17,7 @@ XaeroWaypoints
 XaeroWorldMap
 crafttweaker
 woot
+craftpresence*
 
 #files
 .curseclient
@@ -31,8 +32,9 @@ usercache.json
 usernamecache.json
 textures_*
 seen_buildersbag_addons.txt
+scripts/.zsrc
 
-#stuff in folders
+#Configs
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/CustomRecipes*
 config/jei/bookmarks*
@@ -41,4 +43,5 @@ config/InvTweaks/InvTweaks.cfg
 config/brandon3055/contributors*
 config\brandon3055\ProjectIntelligence*
 config/thaumicjei_itemstack*
-scripts/.zsrc
+config/craftpresence*
+config/splash*
