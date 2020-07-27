@@ -1,0 +1,15 @@
+{
+	title: "Applied Energistics - Storage",
+	x: -5.5d,
+	y: 6.0d,
+	dependencies: [
+		"3a02bdf4"
+	],
+	tasks: [{
+		uid: "ae87d4e9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

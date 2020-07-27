@@ -1,0 +1,7 @@
+{
+	title: "Materials",
+	icon: "taiga:dyonite_ingot",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "pentagon"
+}

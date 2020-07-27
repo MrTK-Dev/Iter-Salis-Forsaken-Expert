@@ -1,0 +1,20 @@
+{
+	title: "Extra Utilities",
+	x: -16.5d,
+	y: 14.0d,
+	dependencies: [
+		"f03f396b",
+		"511cf703"
+	],
+	tasks: [{
+		uid: "71ecadfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:unstableingots"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Thaumcraft",
+	x: -1.0d,
+	y: 18.0d,
+	dependencies: [
+		"6e0e7b1f"
+	],
+	tasks: [{
+		uid: "f623d290",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

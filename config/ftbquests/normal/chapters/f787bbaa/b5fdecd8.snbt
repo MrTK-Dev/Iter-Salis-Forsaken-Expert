@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	shape: "octagon",
+	dependencies: [
+		"4475c2d9"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8d1c2486",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

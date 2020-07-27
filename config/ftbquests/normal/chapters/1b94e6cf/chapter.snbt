@@ -1,0 +1,15 @@
+{
+	title: "Chapter 6 - \"Tools of the Sky\"",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemwand",
+		tag: {
+			astralsorcery: {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

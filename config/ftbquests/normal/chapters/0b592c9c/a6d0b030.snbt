@@ -1,0 +1,29 @@
+{
+	title: "Getting Started with Multiblock Machinery",
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"1eef915c"
+	],
+	tasks: [{
+		uid: "be8769e3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "865809f9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	},
+	{
+		uid: "2b9d7225",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

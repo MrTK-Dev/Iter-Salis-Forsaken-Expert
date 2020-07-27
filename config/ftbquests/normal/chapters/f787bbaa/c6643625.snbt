@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: -5.0d,
+	dependencies: [
+		"16e0dd74"
+	],
+	tasks: [{
+		uid: "d13ab01d",
+		type: "checkmark",
+		title: "Knifes",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:stone_knife"
+		}
+	}]
+}

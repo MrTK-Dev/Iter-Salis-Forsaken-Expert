@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 11.0d,
+	dependencies: [
+		"35aedfda",
+		"eb876184"
+	],
+	tasks: [{
+		uid: "f2d5cefe",
+		type: "item",
+		items: [{
+			item: "woot:prism"
+		}]
+	}]
+}

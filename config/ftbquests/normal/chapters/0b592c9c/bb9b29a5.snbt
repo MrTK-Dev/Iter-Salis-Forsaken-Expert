@@ -1,0 +1,16 @@
+{
+	title: "Arc Furnace",
+	icon: "immersiveengineering:metal_multiblock 1 13",
+	x: 10.0d,
+	y: -5.0d,
+	dependencies: [
+		"ebad9705"
+	],
+	tasks: [{
+		uid: "9e71e341",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 19"
+		}]
+	}]
+}

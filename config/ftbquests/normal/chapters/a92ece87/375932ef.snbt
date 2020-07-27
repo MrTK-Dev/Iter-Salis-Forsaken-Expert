@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 4.5d,
+	dependencies: [
+		"cc3b727f"
+	],
+	tasks: [{
+		uid: "07c115d8",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_wood"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "The Midnight",
+	x: -12.5d,
+	y: 20.0d,
+	dependencies: [
+		"8d405f9d"
+	],
+	tasks: [{
+		uid: "98ff863c",
+		type: "item",
+		items: [{
+			item: "midnight:hunter_wing"
+		}]
+	}]
+}

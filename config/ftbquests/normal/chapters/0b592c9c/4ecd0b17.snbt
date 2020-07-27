@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"f0865c3a",
+		"fdb7b7ca"
+	],
+	tasks: [{
+		uid: "31b07ae2",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	}]
+}

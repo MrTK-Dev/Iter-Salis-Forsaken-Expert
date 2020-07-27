@@ -1,0 +1,7 @@
+{
+	title: "Chapter 9 - \"Great Power\"",
+	icon: "extendedcrafting:table_ultimate",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

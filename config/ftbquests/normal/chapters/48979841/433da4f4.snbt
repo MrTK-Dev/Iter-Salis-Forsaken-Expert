@@ -1,0 +1,16 @@
+{
+	title: "Environmental Tech",
+	x: 11.0d,
+	y: 16.0d,
+	dependencies: [
+		"643821d0",
+		"1c2e9bbc"
+	],
+	tasks: [{
+		uid: "eeddacbd",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}]
+}

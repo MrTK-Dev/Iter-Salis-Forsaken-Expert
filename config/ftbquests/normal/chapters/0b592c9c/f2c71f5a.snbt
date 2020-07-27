@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	dependencies: [
+		"5e04f8c7"
+	],
+	tasks: [{
+		uid: "69d0e7ab",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "RFTools",
+	x: 3.0d,
+	y: 12.0d,
+	dependencies: [
+		"f17b20bb"
+	],
+	tasks: [{
+		uid: "aa9e7994",
+		type: "item",
+		items: [{
+			item: "rftools:infused_diamond"
+		}]
+	}]
+}

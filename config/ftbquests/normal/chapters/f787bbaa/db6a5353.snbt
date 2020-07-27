@@ -1,0 +1,16 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "1875b94e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:runic_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

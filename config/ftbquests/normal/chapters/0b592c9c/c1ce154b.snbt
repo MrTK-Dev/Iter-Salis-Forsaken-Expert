@@ -1,0 +1,16 @@
+{
+	title: "Blast Furnace",
+	icon: "immersiveengineering:stone_device 1 1",
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"1192495a"
+	],
+	tasks: [{
+		uid: "d5b24b12",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Roots",
+	x: -16.5d,
+	y: 18.0d,
+	dependencies: [
+		"f03f396b"
+	],
+	tasks: [{
+		uid: "32fe4643",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	}]
+}

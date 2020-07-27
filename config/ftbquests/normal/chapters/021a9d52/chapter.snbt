@@ -1,0 +1,12 @@
+{
+	title: "Power & Electricity",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thermalfoundation:meter"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

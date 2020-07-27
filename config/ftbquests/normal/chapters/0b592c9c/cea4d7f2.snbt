@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	dependencies: [
+		"78f55790",
+		"763485fa"
+	],
+	tasks: [{
+		uid: "e39a750f",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "3b042a39",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	}]
+}

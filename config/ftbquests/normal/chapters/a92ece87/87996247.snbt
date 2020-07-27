@@ -1,0 +1,32 @@
+{
+	title: "Basic Tools",
+	x: -5.5d,
+	y: -1.5d,
+	dependencies: [
+		"f4a628f8"
+	],
+	tasks: [{
+		uid: "0d9ca7cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99aed159",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_handsaw_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

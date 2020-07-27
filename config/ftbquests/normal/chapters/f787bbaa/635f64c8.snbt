@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	dependencies: [
+		"c6643625"
+	],
+	tasks: [{
+		uid: "83cb79fc",
+		type: "item",
+		items: [{
+			item: "roots:bonfire"
+		}]
+	}]
+}

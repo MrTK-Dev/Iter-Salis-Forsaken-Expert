@@ -1,0 +1,17 @@
+{
+	title: "Advanced Coke Oven",
+	icon: "immersivetech:stone_multiblock",
+	x: -1.0d,
+	y: 4.0d,
+	dependencies: [
+		"b6a3161d",
+		"287e9695"
+	],
+	tasks: [{
+		uid: "7e3f6447",
+		type: "item",
+		items: [{
+			item: "immersivetech:metal_device"
+		}]
+	}]
+}

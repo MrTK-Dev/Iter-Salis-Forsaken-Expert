@@ -1,0 +1,29 @@
+{
+	title: "Ember Transportation",
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"b31bb6a8"
+	],
+	tasks: [{
+		uid: "0a25293d",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "2144de31",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "e898d917",
+		type: "item",
+		items: [{
+			item: "embers:ember_relay"
+		}]
+	}]
+}

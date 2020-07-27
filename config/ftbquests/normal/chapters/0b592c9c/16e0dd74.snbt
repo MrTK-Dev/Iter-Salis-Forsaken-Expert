@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"13d17dcd",
+		"f2c71f5a",
+		"a52e5584"
+	],
+	tasks: [{
+		uid: "ebf6c9fe",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Improved Blast Furnace",
+	icon: "immersiveengineering:stone_device 1 2",
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"b6a3161d",
+		"287e9695"
+	],
+	tasks: [{
+		uid: "fe5d9c53",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1"
+		}]
+	}]
+}

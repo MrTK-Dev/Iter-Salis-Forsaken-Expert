@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	dependencies: [
+		"1daf0245"
+	],
+	tasks: [{
+		uid: "dad772a8",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 301"
+		}]
+	}]
+}

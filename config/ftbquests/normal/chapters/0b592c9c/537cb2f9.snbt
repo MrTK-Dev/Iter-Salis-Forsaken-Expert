@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"db8af1fe"
+	],
+	tasks: [{
+		uid: "598f8052",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	}]
+}

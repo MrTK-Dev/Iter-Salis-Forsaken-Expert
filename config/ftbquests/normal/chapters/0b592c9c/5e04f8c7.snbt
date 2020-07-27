@@ -1,0 +1,43 @@
+{
+	title: "Aspectus",
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"045ab34c"
+	],
+	tasks: [{
+		uid: "3e1a98b0",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_iron"
+		}]
+	},
+	{
+		uid: "ee5354a6",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		}]
+	},
+	{
+		uid: "0f8e00bc",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_lead"
+		}]
+	},
+	{
+		uid: "28fa0b01",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_silver"
+		}]
+	},
+	{
+		uid: "de855c58",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_dawnstone"
+		}]
+	}]
+}

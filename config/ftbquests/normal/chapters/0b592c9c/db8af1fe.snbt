@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"b31bb6a8"
+	],
+	tasks: [{
+		uid: "fa1c2ac8",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}]
+	}]
+}

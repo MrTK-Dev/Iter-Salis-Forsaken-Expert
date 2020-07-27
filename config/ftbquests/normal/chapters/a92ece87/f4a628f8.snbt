@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"Do not fear the new world..."
+	],
+	tasks: [{
+		uid: "f0171a01",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}]
+	},
+	{
+		uid: "afe6cc4d",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "b2afca7e",
+		type: "item",
+		item: "thermalfoundation:coin 1 64"
+	}]
+}

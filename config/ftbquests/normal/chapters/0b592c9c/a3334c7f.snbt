@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: -7.0d,
+	text: [
+		"Ignores Metadata"
+	],
+	dependencies: [
+		"408a0c93"
+	],
+	tasks: [{
+		uid: "7a48ae50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

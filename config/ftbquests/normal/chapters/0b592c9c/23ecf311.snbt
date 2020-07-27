@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	shape: "octagon",
+	dependencies: [
+		"f261dbee"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "86b06e89",
+		type: "item",
+		items: [{
+			item: "embers:wildfire_core"
+		}]
+	}]
+}

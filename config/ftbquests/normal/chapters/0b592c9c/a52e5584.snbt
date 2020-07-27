@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"f56bb2d9"
+	],
+	tasks: [{
+		uid: "3e78b56b",
+		type: "item",
+		items: [{
+			item: "embers:dust_ash"
+		}]
+	}]
+}

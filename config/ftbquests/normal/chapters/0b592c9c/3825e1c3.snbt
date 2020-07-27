@@ -1,0 +1,16 @@
+{
+	title: "Coke Oven",
+	icon: "immersiveengineering:stone_device",
+	x: -4.0d,
+	y: 3.0d,
+	dependencies: [
+		"9563eeaa"
+	],
+	tasks: [{
+		uid: "23636e0a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}]
+	}]
+}

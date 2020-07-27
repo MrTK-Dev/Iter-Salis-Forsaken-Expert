@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	dependencies: [
+		"1ba97de9"
+	],
+	tasks: [{
+		uid: "447d087e",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}]
+}

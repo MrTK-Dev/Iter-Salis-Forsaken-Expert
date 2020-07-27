@@ -1,0 +1,15 @@
+{
+	title: "Embers",
+	x: -20.5d,
+	y: 16.0d,
+	dependencies: [
+		"45c72c75"
+	],
+	tasks: [{
+		uid: "04833dfe",
+		type: "item",
+		items: [{
+			item: "embers:ember_cluster"
+		}]
+	}]
+}

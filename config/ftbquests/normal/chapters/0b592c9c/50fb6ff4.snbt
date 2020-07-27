@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	dependencies: [
+		"3eded405"
+	],
+	tasks: [{
+		uid: "408e5c89",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}]
+	}]
+}

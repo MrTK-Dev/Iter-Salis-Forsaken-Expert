@@ -1,0 +1,15 @@
+{
+	title: "Bewitchment",
+	x: 7.0d,
+	y: 18.0d,
+	dependencies: [
+		"2f79f899"
+	],
+	tasks: [{
+		uid: "743c3ded",
+		type: "item",
+		items: [{
+			item: "bewitchment:ebb_of_death"
+		}]
+	}]
+}

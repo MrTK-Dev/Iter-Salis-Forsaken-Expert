@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	dependencies: [
+		"3825e1c3"
+	],
+	tasks: [{
+		uid: "71ab8b15",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Draconic Evolution",
+	x: 15.0d,
+	y: 14.0d,
+	dependencies: [
+		"433da4f4",
+		"8b20850a"
+	],
+	tasks: [{
+		uid: "ad614b21",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}]
+}

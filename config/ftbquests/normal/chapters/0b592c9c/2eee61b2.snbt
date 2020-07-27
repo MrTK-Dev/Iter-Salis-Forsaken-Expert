@@ -1,0 +1,16 @@
+{
+	title: "Alloy Kiln",
+	icon: "immersiveengineering:stone_device 1 7",
+	x: -6.0d,
+	y: -5.0d,
+	dependencies: [
+		"0fe0184a"
+	],
+	tasks: [{
+		uid: "12808b93",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}]
+	}]
+}

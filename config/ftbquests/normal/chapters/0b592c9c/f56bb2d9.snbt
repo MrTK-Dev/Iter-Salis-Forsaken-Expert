@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"df3fa6f2"
+	],
+	tasks: [{
+		uid: "1c5a8135",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	}]
+}

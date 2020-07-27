@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 2.5d,
+	dependencies: [
+		"cc3b727f"
+	],
+	tasks: [{
+		uid: "98b9fda2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

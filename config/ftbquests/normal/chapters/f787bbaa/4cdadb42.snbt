@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 0.5d,
+	dependencies: [
+		"1ee254d5"
+	],
+	tasks: [{
+		uid: "052be11d",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}]
+	}]
+}

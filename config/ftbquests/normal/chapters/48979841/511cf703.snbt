@@ -1,0 +1,19 @@
+{
+	title: "Immersive Engineering",
+	x: -20.5d,
+	y: 12.0d,
+	dependencies: [
+		"45c72c75"
+	],
+	tasks: [{
+		uid: "45e3096c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

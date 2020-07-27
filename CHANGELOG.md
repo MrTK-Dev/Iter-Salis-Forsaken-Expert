@@ -9,7 +9,15 @@ Releases marked with "- A(lpha)" are only Commits in the Development of the Pack
 
 ## [Unreleased]
 
-## [0.0.2 - Alpha] - 22/07/2020
+## [0.0.3 - Alpha] - 27/07/2020
+
+### Added
+
+### Changed
+
+### Removed
+
+## [0.0.2 - Alpha] - 27/07/2020
 
 ### Added
 
@@ -22,17 +30,78 @@ Releases marked with "- A(lpha)" are only Commits in the Development of the Pack
 - Turned off Bewitchment Silver Ore Generation
 - Turned off Forestry Copper Ore Generation
 - ThaumicJEI Aspects are now part of .gitignore
+- added config\brandon3055\ProjectIntelligence* to .gitignore
+- added "seen_buildersbag_addons.txt" to .gitignore
+
+### Removed
+
+- Building Gadgets
+- LibrarianLib
+- Hooked
 
 #### Mod Updates
 
-- Updated Actually Additions to the latest version
-- Updated /dank/null to the latest version
-- Updated AppleSkin to the latest version
-- Updated Bewitchment to the latest version
-- Updated Dynamistics to the latest version
-- Updated CraftTweaker to the latest version
-- Updated Creative Core to the latest version
-- Updated Little Tiles to the latest version
+Updated [MODNAME] to the latest version
+
+- Actually Additions
+- /dank/null
+- AppleSkin
+- Bewitchment
+- Dynamistics
+- CraftTweaker
+- Creative Core
+- Little Tiles
+- Artisan Worktables
+- Artisan Integration
+- Astral Sorcery
+- Athenaeum [LIB]
+- Avaritia's Complement
+- Better Questing
+- Bewitchment
+- BnBGamingCore [LIB]
+- CraftTweaker
+- Cyclops Core [LIB]
+- Draconic Additions
+- Dropt
+- DupeFix Project
+- Embers Rekindled
+- Ender IO
+- Ender IO Endergy
+- EnderCore [LIB]
+- Framed Compacting Drawers
+- FTB Library [LIB]
+- FTB Quests
+- Gas Conduits
+- Hammer (Lib) Core [LIB]
+- Immersive Engineering
+- Immersive Technology
+- In Control!
+- Incorporeal
+- Item Filters [LIB]
+- ItemPhysic Full
+- JEI Integration
+- Just Enough Items (JEI)
+- LibraryEx [LIB]
+- LootTweaker
+- Mystical Adaptations
+- Mystical Creations
+- NetherEx
+- NuclearCraft
+- PackagedAuto
+- Patchouli
+- Probe
+- Reborn Core [LIB]
+- Redstone Arsenal
+- Roots
+- Smooth Font
+- Soot
+- Storage Drawers
+- Thaumic Additions: Reconstructed
+- Topography
+- Tweakers Construct
+- Volumetric Flask
+- Xaero's Minimap
+- Xaero's World Map
 
 ## [0.0.1 - Alpha] - 20/04/2020
 

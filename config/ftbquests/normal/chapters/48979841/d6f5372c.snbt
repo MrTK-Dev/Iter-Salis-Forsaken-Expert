@@ -1,0 +1,23 @@
+{
+	title: "Blood Magic",
+	x: -8.5d,
+	y: 14.0d,
+	dependencies: [
+		"3a02bdf4",
+		"805b3db9"
+	],
+	tasks: [{
+		uid: "099e13fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Extended Crafting",
+	x: 19.0d,
+	y: 18.0d,
+	dependencies: [
+		"6eda7418"
+	],
+	tasks: [{
+		uid: "22b7c22b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}]
+}

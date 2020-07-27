@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"5a669c68"
+	],
+	tasks: [{
+		uid: "f029d607",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativeglass 1 5"
+		}]
+	}]
+}

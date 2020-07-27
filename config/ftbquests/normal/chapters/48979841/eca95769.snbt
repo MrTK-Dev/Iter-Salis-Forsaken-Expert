@@ -1,0 +1,15 @@
+{
+	title: "Actually Additions",
+	x: -8.5d,
+	y: 10.0d,
+	dependencies: [
+		"3a02bdf4"
+	],
+	tasks: [{
+		uid: "7b5a6b6d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 5"
+		}]
+	}]
+}

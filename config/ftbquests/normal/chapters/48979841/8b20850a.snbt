@@ -1,0 +1,16 @@
+{
+	title: "NuclearCraft",
+	x: 11.0d,
+	y: 12.0d,
+	dependencies: [
+		"643821d0",
+		"88b61707"
+	],
+	tasks: [{
+		uid: "a0580b43",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	}]
+}

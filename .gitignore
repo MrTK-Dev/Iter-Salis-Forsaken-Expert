@@ -30,6 +30,7 @@ patchouli_data.json
 usercache.json
 usernamecache.json
 textures_*
+seen_buildersbag_addons.txt
 
 #stuff in folders
 config/AppliedEnergistics2/items.csv
@@ -38,5 +39,6 @@ config/jei/bookmarks*
 config/jei/world*
 config/InvTweaks/InvTweaks.cfg
 config/brandon3055/contributors*
+config\brandon3055\ProjectIntelligence*
 config/thaumicjei_itemstack*
 scripts/.zsrc

@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	dependencies: [
+		"d33b1c9a",
+		"b1aede41"
+	],
+	tasks: [{
+		uid: "61cd62c9",
+		type: "item",
+		items: [{
+			item: "tcomplement:melter"
+		}]
+	}]
+}

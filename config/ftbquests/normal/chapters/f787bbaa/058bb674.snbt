@@ -1,0 +1,35 @@
+{
+	x: -14.0d,
+	y: -3.5d,
+	dependencies: [
+		"9d3b708f"
+	],
+	tasks: [{
+		uid: "35a314fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					inventory: {
+						Size: 9,
+						Items: []
+					},
+					uuid: "ca715203-6614-469a-9d0c-37a517d45fa7",
+					modules: [{
+						expanded: 0b,
+						name: "buildersbag:random",
+						enabled: 0b
+					}],
+					selected: {
+						Size: 1,
+						Items: []
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildersbag:builders_bag_tier_one"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

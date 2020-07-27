@@ -1,0 +1,12 @@
+{
+	title: "Tinkers Construct",
+	x: -24.5d,
+	y: 14.0d,
+	tasks: [{
+		uid: "d18c8484",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

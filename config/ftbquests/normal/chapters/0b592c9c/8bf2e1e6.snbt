@@ -1,0 +1,22 @@
+{
+	title: "Ember",
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"4ecd0b17"
+	],
+	tasks: [{
+		uid: "f70b1abe",
+		type: "item",
+		items: [{
+			item: "embers:dust_ember"
+		}]
+	},
+	{
+		uid: "5bb623ac",
+		type: "item",
+		items: [{
+			item: "embers:shard_ember"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 4.5d,
+	dependencies: [
+		"d33b1c9a"
+	],
+	tasks: [{
+		uid: "6b78006b",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "d6821966",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "5fa05219",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}]
+}

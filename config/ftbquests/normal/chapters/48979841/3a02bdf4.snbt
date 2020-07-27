@@ -1,0 +1,16 @@
+{
+	title: "Thermal Expansion",
+	x: -12.5d,
+	y: 12.0d,
+	dependencies: [
+		"395b3f37",
+		"46eeb7bd"
+	],
+	tasks: [{
+		uid: "8581ffd4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 513"
+		}]
+	}]
+}

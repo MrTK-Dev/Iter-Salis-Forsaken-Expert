@@ -1,0 +1,16 @@
+{
+	title: "Industrial Foregoing",
+	x: -4.5d,
+	y: 12.0d,
+	dependencies: [
+		"eca95769",
+		"d6f5372c"
+	],
+	tasks: [{
+		uid: "ba59bf8e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}]
+}

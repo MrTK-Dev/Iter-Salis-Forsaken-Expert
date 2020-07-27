@@ -1,0 +1,43 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6bfb4c6"
+	],
+	tasks: [{
+		uid: "1546d957",
+		type: "item",
+		items: [{
+			item: "embers:stamp_bar"
+		}]
+	},
+	{
+		uid: "32884bb3",
+		type: "item",
+		items: [{
+			item: "embers:stamp_flat"
+		}]
+	},
+	{
+		uid: "7a780f63",
+		type: "item",
+		items: [{
+			item: "embers:stamp_plate"
+		}]
+	},
+	{
+		uid: "85860a78",
+		type: "item",
+		items: [{
+			item: "embers:stamp_gear"
+		}]
+	},
+	{
+		uid: "1f080a60",
+		type: "item",
+		items: [{
+			item: "soot:stamp_nugget"
+		}]
+	}]
+}

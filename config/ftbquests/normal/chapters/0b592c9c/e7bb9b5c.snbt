@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	dependencies: [
+		"f0865c3a"
+	],
+	tasks: [{
+		uid: "9b197a96",
+		type: "item",
+		items: [{
+			item: "embers:mech_accessor"
+		}]
+	}]
+}

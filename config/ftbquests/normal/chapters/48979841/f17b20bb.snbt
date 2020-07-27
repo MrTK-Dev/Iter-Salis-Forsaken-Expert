@@ -1,0 +1,15 @@
+{
+	title: "Ender IO",
+	x: -1.0d,
+	y: 14.0d,
+	dependencies: [
+		"4c831b46"
+	],
+	tasks: [{
+		uid: "16627c59",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	}]
+}

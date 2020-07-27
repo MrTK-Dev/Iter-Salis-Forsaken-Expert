@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	dependencies: [
+		"045ab34c"
+	],
+	tasks: [{
+		uid: "a5623be8",
+		type: "item",
+		items: [{
+			item: "moreplates:silicon_plate"
+		}]
+	}]
+}

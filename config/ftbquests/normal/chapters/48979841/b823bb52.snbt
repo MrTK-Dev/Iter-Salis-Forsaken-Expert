@@ -1,0 +1,24 @@
+{
+	title: "Astral Sorcery",
+	x: 3.0d,
+	y: 16.0d,
+	dependencies: [
+		"f17b20bb",
+		"e19dfc07"
+	],
+	tasks: [{
+		uid: "ec2960fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"f29dd721"
+	],
+	tasks: [{
+		uid: "dfba1f5e",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}]
+}

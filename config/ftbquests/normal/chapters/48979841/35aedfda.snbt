@@ -1,0 +1,16 @@
+{
+	title: "Applied Energistics - Automation",
+	x: 1.0d,
+	y: 9.0d,
+	dependencies: [
+		"4c831b46",
+		"87187907"
+	],
+	tasks: [{
+		uid: "2101549c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: 3.0d,
+	shape: "octagon",
+	dependencies: [
+		"50fb6ff4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5da8f0e0",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 3"
+		}]
+	}]
+}

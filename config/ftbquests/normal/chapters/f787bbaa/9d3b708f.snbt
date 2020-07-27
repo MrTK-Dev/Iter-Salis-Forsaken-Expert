@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: -3.5d,
+	dependencies: [
+		"db6a5353"
+	],
+	tasks: [{
+		uid: "1b749d69",
+		type: "item",
+		items: [{
+			item: "roots:fey_leather"
+		}]
+	}]
+}
