@@ -7,7 +7,7 @@
 
 #|=======|Additions|=======|#
 
-Recipes.AddShaped({
+/*Recipes.AddShaped({
     //Alloy Kiln Brick
 <nuclearcraft:fission_block:1> * 4: [
         [
@@ -17,9 +17,9 @@ Recipes.AddShaped({
         ]
     ]
 });
-
+*/
 #|=======|Removes|=======|#
 
 Recipes.Remove([
-    <nuclearcraft:fission_block:1>
+    //<nuclearcraft:fission_block:1>
 ]);
