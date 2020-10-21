@@ -1,6 +1,10 @@
 {
 	x: -3.0d,
-	y: 0.5d,
+	y: 1.5d,
+	shape: "diamond",
+	dependencies: [
+		"a14dad21"
+	],
 	tasks: [{
 		uid: "fb18dffc",
 		type: "item",

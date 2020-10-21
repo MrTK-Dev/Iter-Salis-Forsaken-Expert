@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	dependencies: [
+		"fb5bb808"
+	],
+	tasks: [{
+		uid: "2c4a9f88",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	}]
+}

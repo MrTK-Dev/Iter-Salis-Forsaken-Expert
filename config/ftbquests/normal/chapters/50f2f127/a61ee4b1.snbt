@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 0.5d,
+	dependencies: [
+		"e0d6317f"
+	],
+	tasks: [{
+		uid: "ce8baa2e",
+		type: "item",
+		items: [{
+			item: "moreplates:coal_plate"
+		}]
+	}]
+}
