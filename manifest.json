@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Iter Salis Forsaken Expert",
-  "version": "0.0.2 - Alpha",
+  "version": "0.0.3",
   "author": "MrTK__",
   "files": [
     {
@@ -85,13 +85,13 @@
       "required": true
     },
     {
-      "projectID": 270183,
-      "fileID": 2903998,
+      "projectID": 65764,
+      "fileID": 2855061,
       "required": true
     },
     {
-      "projectID": 65764,
-      "fileID": 2855061,
+      "projectID": 270183,
+      "fileID": 2903998,
       "required": true
     },
     {
@@ -205,16 +205,6 @@
       "required": true
     },
     {
-      "projectID": 226254,
-      "fileID": 2995656,
-      "required": true
-    },
-    {
-      "projectID": 381658,
-      "fileID": 2979206,
-      "required": true
-    },
-    {
       "projectID": 303122,
       "fileID": 2919936,
       "required": true
@@ -297,11 +287,6 @@
     {
       "projectID": 272515,
       "fileID": 2685984,
-      "required": true
-    },
-    {
-      "projectID": 359407,
-      "fileID": 3014942,
       "required": true
     },
     {
@@ -405,11 +390,6 @@
       "required": true
     },
     {
-      "projectID": 274807,
-      "fileID": 2927239,
-      "required": true
-    },
-    {
       "projectID": 245287,
       "fileID": 2658176,
       "required": true
@@ -510,13 +490,13 @@
       "required": true
     },
     {
-      "projectID": 233071,
-      "fileID": 2562139,
+      "projectID": 246996,
+      "fileID": 2722575,
       "required": true
     },
     {
-      "projectID": 246996,
-      "fileID": 2722575,
+      "projectID": 233071,
+      "fileID": 2562139,
       "required": true
     },
     {
@@ -526,7 +506,7 @@
     },
     {
       "projectID": 285439,
-      "fileID": 3015786,
+      "fileID": 3080809,
       "required": true
     },
     {
@@ -755,11 +735,6 @@
       "required": true
     },
     {
-      "projectID": 314515,
-      "fileID": 3014979,
-      "required": true
-    },
-    {
       "projectID": 376903,
       "fileID": 2934706,
       "required": true
@@ -817,6 +792,11 @@
     {
       "projectID": 268324,
       "fileID": 2460821,
+      "required": true
+    },
+    {
+      "projectID": 403676,
+      "fileID": 3081534,
       "required": true
     },
     {
@@ -940,16 +920,6 @@
       "required": true
     },
     {
-      "projectID": 238856,
-      "fileID": 2950248,
-      "required": true
-    },
-    {
-      "projectID": 238857,
-      "fileID": 2863771,
-      "required": true
-    },
-    {
       "projectID": 295114,
       "fileID": 2888498,
       "required": true
@@ -962,6 +932,11 @@
     {
       "projectID": 278406,
       "fileID": 2481852,
+      "required": true
+    },
+    {
+      "projectID": 336895,
+      "fileID": 3072330,
       "required": true
     },
     {
@@ -1002,6 +977,11 @@
     {
       "projectID": 250577,
       "fileID": 2648656,
+      "required": true
+    },
+    {
+      "projectID": 409880,
+      "fileID": 3076227,
       "required": true
     },
     {
