@@ -11,6 +11,7 @@ global Embers as scripts.CraftTweaker.Functions.Mods.embers.Embers = scripts.Cra
 global Forestry as scripts.CraftTweaker.Functions.Mods.forestry.Forestry = scripts.CraftTweaker.Functions.Mods.forestry.Forestry();
 global Roots as scripts.CraftTweaker.Functions.Mods.roots.Roots = scripts.CraftTweaker.Functions.Mods.roots.Roots();
 global AE as scripts.CraftTweaker.Functions.Mods.appliedenergistics.AE = scripts.CraftTweaker.Functions.Mods.appliedenergistics.AE();
+global ThermalEXP as scripts.CraftTweaker.Functions.Mods.thermalsuite.ThermalEXP = scripts.CraftTweaker.Functions.Mods.thermalsuite.ThermalEXP();
 
 //Vanilla
 global Furnace as scripts.CraftTweaker.Functions.furnace.Furnace = scripts.CraftTweaker.Functions.furnace.Furnace();
