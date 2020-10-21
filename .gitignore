@@ -47,3 +47,5 @@ config/craftpresence*
 config/splash*
 config/Guide-API/Guide-API.cfg
 config/splash.properties
+
+scripts/nc_script_addons/DONT_PUT_YOUR_SCRIPTS_IN_HERE
