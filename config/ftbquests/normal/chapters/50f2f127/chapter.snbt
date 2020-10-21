@@ -1,11 +1,10 @@
 {
-	title: "Super Secret Chapter - \"Challenges\"",
+	title: "Main Progression",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
-		id: "botania:cosmetic",
-		Damage: 27s
+		id: "nuclearcraft:geiger_counter"
 	},
 	always_invisible: false,
 	group: 0,

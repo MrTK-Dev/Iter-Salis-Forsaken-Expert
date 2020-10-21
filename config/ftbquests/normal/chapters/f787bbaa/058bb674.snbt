@@ -27,7 +27,8 @@
 				},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "buildersbag:builders_bag_tier_one"
+			id: "buildersbag:builders_bag_tier_one",
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

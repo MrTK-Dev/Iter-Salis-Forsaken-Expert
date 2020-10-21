@@ -1,7 +1,0 @@
-{
-	title: "Chapter 8 - \"Radioactive Environment\"",
-	icon: "nuclearcraft:fusion_core",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

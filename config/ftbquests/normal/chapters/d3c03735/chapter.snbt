@@ -1,7 +1,0 @@
-{
-	title: "Chapter 5 - \"Thaumic IO\"",
-	icon: "thaumcraft:mind 1 1",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

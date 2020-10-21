@@ -5,10 +5,10 @@
 		"ba67b875"
 	],
 	tasks: [{
-		uid: "f9f06937",
+		uid: "e5e13831",
 		type: "item",
 		items: [{
-			item: "artisanworktables:workshop 1 2"
+			item: "artisanworktables:worktable 1 2"
 		}]
 	}]
 }
