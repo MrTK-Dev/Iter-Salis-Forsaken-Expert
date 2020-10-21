@@ -11,25 +11,25 @@ Recipes.AddShaped({
     //Alloy Kiln Brick
 <immersiveengineering:stone_decoration:10>: [
         [
-	[<ore:ingotBrick>, ToolUsage("hammer", 2), <ore:ingotBrick>], 
-	[<ore:sandstone>, <ore:plateCopper>, <ore:sandstone>], 
-	[<ore:ingotBrick>, ToolUsage("trowel", 3), <ore:ingotBrick>]
+	[<ore:sandstone>, <ore:ingotBronze>, <ore:sandstone>], 
+	[<ore:ingotBronze>, <minecraft:brick_block>, <ore:ingotBronze>], 
+	[<ore:sandstone>, <ore:ingotBronze>, <ore:sandstone>]
         ]
     ],
     //Coke Oven Brick
-<immersiveengineering:stone_decoration:0>: [
+<immersiveengineering:stone_decoration:0> * 3: [
         [
-	[<ore:clayPorcelain>, ToolUsage("hammer", 2), <tconstruct:dried_clay_slab:1>], 
-	[<embers:brick_caminite>, <ore:sandstone>, <embers:brick_caminite>], 
-	[<tconstruct:dried_clay_slab:1>, ToolUsage("trowel", 3), <ore:clayPorcelain>]
+	[<tconstruct:materials:2>, <embers:brick_caminite>, <ceramics:unfired_clay:5>], 
+	[<embers:brick_caminite>, <ore:plateCoal>, <embers:brick_caminite>], 
+	[<ceramics:unfired_clay:5>, <embers:brick_caminite>, <tconstruct:materials:2>]
         ]
     ],
     //Blast Furnace Brick
 <immersiveengineering:stone_decoration:1> * 3: [
         [
-	[<tconstruct:materials:1>, <ore:plateElectrum>, <tconstruct:materials:1>], 
+	[<ore:ingotBrickNether>, <ore:plateElectrum>, <ore:ingotBrickNether>], 
 	[<contenttweaker:resistive_bricks>, <embers:archaic_light>, <contenttweaker:resistive_bricks>], 
-	[<tconstruct:materials:1>, <ore:plateElectrum>, <tconstruct:materials:1>]
+	[<ore:ingotBrickNether>, <ore:plateElectrum>, <ore:ingotBrickNether>]
         ]
     ],
     //Copper Coil Block
@@ -109,6 +109,7 @@ Recipes.Remove([
 Recipes.RemoveByName({
    "immersiveengineering": [
         "stone_decoration/cokebrick",
-        "stone_decoration/blastbrick"
+        "stone_decoration/blastbrick",
+        "stone_decoration/alloybrick"
    ]
 });
