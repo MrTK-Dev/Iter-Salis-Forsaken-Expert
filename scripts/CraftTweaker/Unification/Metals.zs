@@ -29,13 +29,7 @@ for Name, Metal in metal_parts {
                 {tools.hammer: 4},
                 null, {}
             );
-            /*
-            recipes.addShaped("uni_" + Name + "_nuggets_to_ingot", Ingot, [
-                [Nugget, Nugget, Nugget],
-                [Nugget, Nugget, Nugget],
-                [Nugget, Nugget, Nugget]
-            ]);
-            */
+
             recipes.addShapeless("uni_" + Name + "_ingot_to_nuggets", Nugget * 9, [
                 Ingot
             ]);
@@ -56,13 +50,7 @@ for Name, Metal in metal_parts {
                 {tools.hammer: 6},
                 null, {}
             );
-            /*
-            recipes.addShaped("uni_" + Name + "_ingots_to_block", Block, [
-                [Ingot, Ingot, Ingot],
-                [Ingot, Ingot, Ingot],
-                [Ingot, Ingot, Ingot]
-            ]);
-            */
+
             recipes.addShapeless("uni_" + Name + "_block_to_ingots", Ingot * 9, [
                 Block
             ]);
@@ -79,7 +67,7 @@ for Name, Metal in metal_parts {
             furnace.addRecipe(Ingot, Dust, 0.1);
 
             /*Ingot to Dust*/
-            AE.AddGrindstone([[Dust, Ingot]]);
+            //AE.AddGrindstone([[Dust, Ingot]]);
         }
 
         if (Metal has "plate" & !isNull(metal_parts[Name].plate))
@@ -140,10 +128,9 @@ for Name, Metal in metal_parts {
 
             if (Metal has "dust" & !isNull(metal_parts[Name].dust))
             {
-                //WTF
                 val Dust = metal_parts[Name].dust as IItemStack;
 
-                AE.AddGrindstone(metal_parts[Name].dust, Ore, {metal_parts[Name].dust: 0.5});
+                //AE.AddGrindstone(metal_parts[Name].dust, Ore, metal_parts[Name].dust, 0.5);
             }
         }
     }

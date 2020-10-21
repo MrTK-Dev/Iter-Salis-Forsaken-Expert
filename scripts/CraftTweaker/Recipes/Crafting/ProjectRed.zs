@@ -23,9 +23,9 @@ Recipes.AddShaped({
     //Coal Compound
 <projectred-core:resource_item:250>: [
         [
-	[<ore:compressed1xSand>, <ore:compressed1xSand>, <ore:compressed1xSand>], 
+	[<ore:dust>, <ore:compressed1xSand>, <ore:dust>], 
 	[<ore:compressed1xSand>, <ore:blockCoalCoke>, <ore:compressed1xSand>], 
-	[<ore:compressed1xSand>, <ore:compressed1xSand>, <ore:compressed1xSand>]
+	[<ore:dust>, <ore:compressed1xSand>, <ore:dust>]
         ]
     ],
     //Silicon Chips
@@ -45,7 +45,7 @@ Recipes.AddShaped({
 <projectred-core:resource_item:400>: [
         [
 	[<ore:ingotCopper>, <minecraft:redstone>, <ore:ingotCopper>],
-	[<ore:ingotCopper>, <ore:stickAluminum>, <ore:ingotCopper>],
+	[<ore:ingotCopper>, <ore:ballSilicon>, <ore:ingotCopper>],
 	[<ore:ingotCopper>, <minecraft:redstone>, <ore:ingotCopper>]
         ]
     ],
@@ -53,7 +53,7 @@ Recipes.AddShaped({
 <projectred-core:resource_item:401>: [
         [
 	[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>],
-	[<ore:ingotIron>, <ore:stickAluminum>, <ore:ingotIron>],
+	[<ore:ingotIron>, <ore:ballSilicon>, <ore:ingotIron>],
 	[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]
         ]
     ],
@@ -61,7 +61,7 @@ Recipes.AddShaped({
 <projectred-core:resource_item:402>: [
         [
 	[<ore:ingotGold>, <minecraft:redstone>, <ore:ingotGold>],
-	[<ore:ingotGold>, <ore:stickAluminum>, <ore:ingotGold>],
+	[<ore:ingotGold>, <ore:ballSilicon>, <ore:ingotGold>],
 	[<ore:ingotGold>, <minecraft:redstone>, <ore:ingotGold>]
         ]
     ],

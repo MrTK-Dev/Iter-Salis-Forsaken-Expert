@@ -19,9 +19,9 @@ Recipes.AddShaped({
     //Machine Block
 <extrautils2:machine>: [
         [
-	[<ore:ingotSteel>, <extrautils2:decorativeglass:5>, <ore:ingotSteel>], 
+	[<ore:ingotAluminum>, <ore:plateIron>, <ore:ingotAluminum>], 
 	[<extrautils2:decorativeglass:5>, <embers:mech_core>, <extrautils2:decorativeglass:5>], 
-	[<ore:ingotSteel>, <extrautils2:decorativeglass:5>, <ore:ingotSteel>]
+	[<ore:ingotAluminum>, <ore:chest>, <ore:ingotAluminum>]
         ]
     ],
     //Machine Block
@@ -50,13 +50,26 @@ Recipes.AddShaped({
     ]
 });
 
+Recipes.AddShapeless({
+    //Ender Shard
+<extrautils2:endershard>: [
+        [ToolUsage("cutters", 3), <minecraft:ender_pearl>]
+]
+});
+
 #|=======|Removes|=======|#
 
 Recipes.Remove([
     <extrautils2:spike_wood>,
     <extrautils2:spike_stone>,
-    //<extrautils2:machine>,
     <extrautils2:decorativesolid:4>,
     <extrautils2:resonator>,
     <extrautils2:passivegenerator:7>
 ]);
+
+Recipes.RemoveByName({
+   "extrautils2": [
+        "machine_base",
+        "ender_shard"
+   ]
+});

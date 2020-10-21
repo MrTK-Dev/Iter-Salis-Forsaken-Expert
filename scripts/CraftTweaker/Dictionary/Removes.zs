@@ -37,5 +37,7 @@ Removes.FullyDisable([
     //Extended Crafting
     <extendedcrafting:crafting_table>,
     //Forestry
-    <forestry:squeezer>
+    <forestry:squeezer>,
+    //Extra Utilities 2
+    <extrautils2:glasscutter>
 ]);

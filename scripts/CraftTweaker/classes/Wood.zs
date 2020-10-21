@@ -33,7 +33,7 @@ global woods as IItemStack[string][string] =
         gate: <minecraft:spruce_fence_gate>,
         pressure: <quark:spruce_pressure_plate>,
         trap: <quark:spruce_trapdoor>,
-        fence:<minecraft:spruce_fence>,
+        fence: <minecraft:spruce_fence>,
         sapling: <minecraft:sapling:1>,
         shelf: <quark:custom_bookshelf>,
         slab: <minecraft:wooden_slab:1>,
@@ -45,7 +45,7 @@ global woods as IItemStack[string][string] =
         drawer: null
     },
     birch: {
-        plank: <minecraft:planks:2>,
+        planks: <minecraft:planks:2>,
         log: <minecraft:log:2>,
         slab: <minecraft:wooden_slab:2>,
         stairs: <minecraft:birch_stairs>,

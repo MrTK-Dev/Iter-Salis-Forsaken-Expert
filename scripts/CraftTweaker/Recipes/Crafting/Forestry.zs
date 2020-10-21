@@ -11,9 +11,9 @@ Recipes.AddShaped({
     //Carpenter
 <forestry:carpenter>: [
         [
-	[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>], 
-	[<ore:stickBronze>, <forestry:sturdy_machine>, <ore:stickBronze>], 
-	[<ore:ingotSteel>, <projectred-core:resource_item:410>, <ore:ingotSteel>]
+	[<ore:ingotCrudeSteel>, <ore:circuitBasic>, <ore:ingotCrudeSteel>], 
+	[<immersiveengineering:metal_device0:4>, <forestry:sturdy_machine>, <immersiveengineering:metal_device0:4>], 
+	[<ore:ingotCrudeSteel>, <projectred-core:resource_item:410>, <ore:ingotCrudeSteel>]
         ]
 ]
 });
