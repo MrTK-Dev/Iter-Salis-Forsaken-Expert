@@ -15,7 +15,6 @@ saves
 valkyrielib
 XaeroWaypoints
 XaeroWorldMap
-crafttweaker
 woot
 craftpresence*
 
@@ -33,6 +32,7 @@ usernamecache.json
 textures_*
 seen_buildersbag_addons.txt
 scripts/.zsrc
+scripts/nc_script_addons/DONT_PUT_YOUR_SCRIPTS_IN_HERE
 
 #Configs
 config/AppliedEnergistics2/items.csv
@@ -47,5 +47,3 @@ config/craftpresence*
 config/splash*
 config/Guide-API/Guide-API.cfg
 config/splash.properties
-
-scripts/nc_script_addons/DONT_PUT_YOUR_SCRIPTS_IN_HERE
