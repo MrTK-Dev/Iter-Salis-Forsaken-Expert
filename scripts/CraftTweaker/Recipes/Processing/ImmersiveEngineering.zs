@@ -58,3 +58,9 @@ ImmersiveEngineering.RemoveArcFurnace([
     metal_parts.darksteel.ingot,
     metal_parts.electricalsteel.ingot
 ]);
+
+#|=======|Alloy Kiln|=======|#
+
+ImmersiveEngineering.AddAlloyKiln({
+    <ore:plateCoal>.firstItem * 3: [<ore:blockCoal>, <ore:plateLead>]
+});
