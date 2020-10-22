@@ -5,8 +5,10 @@
 JEI.HideCategory([
     "Painter",
     "jeresources.enchantment",
-    "forestry.bottler"/*,
-    "EIOTank"*/
+    "forestry.bottler",
+    "xu2_machine_extrautils2:furnace",
+    "xu2_machine_extrautils2:crusher"
+    //"EIOTank"
 ]);
 
 #|=======|Hide Items|=======|#
