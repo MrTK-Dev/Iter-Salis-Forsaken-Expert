@@ -7,6 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.ArcFurnace;
+import mods.immersiveengineering.AlloySmelter;
 
 zenClass ImmersiveEngineering
 {
@@ -31,41 +32,40 @@ zenClass ImmersiveEngineering
         }
     };
 
+    var BaseTime as int[string] = {
+        AlloyKiln: 300  
+    };
+
     var Slag as IItemStack = <ore:itemSlag>.firstItem;
 
     #|=======|Functions|=======|#
 
-    function AddBlastFurnace(Output as IItemStack, Input as IIngredient, Time as int, Slag as IItemStack)
-    {
+    function AddBlastFurnace(Output as IItemStack, Input as IIngredient, Time as int, Slag as IItemStack) {
         BlastFurnace.addRecipe(Output, Input, Time, Slag);
     }
 
-    function RemoveBlastFurnace(Outputs as IItemStack[])
-    {
+    function RemoveBlastFurnace(Outputs as IItemStack[]) {
         for Output in Outputs
         {
             BlastFurnace.removeRecipe(Output);
         }
     }
 
-    function AddBlastFurnaceFuel(Fuels as int[IIngredient])
-    {
+    function AddBlastFurnaceFuel(Fuels as int[IIngredient]) {
         for Item, Time in Fuels
         {
             BlastFurnace.addFuel(Item, Time);
         }
     }
 
-    function RemoveBlastFurnaceFuel(Fuels as IItemStack[])
-    {
+    function RemoveBlastFurnaceFuel(Fuels as IItemStack[]) {
         for Fuel in Fuels
         {
             BlastFurnace.removeFuel(Fuel);
         }
     }
 
-    function AddMetalPress(RecipeMap as IIngredient[IItemStack][string])
-    {
+    function AddMetalPress(RecipeMap as IIngredient[IItemStack][string]) {
         for Mold, Recipe in RecipeMap {
             for Output, Input in Recipe {
                 MetalPress.addRecipe(Output, Input.amount(1), Molds[Mold].mold, Energy.MetalPress, Input.amount);
@@ -79,8 +79,7 @@ zenClass ImmersiveEngineering
         
     }
 
-    function AddArcFurnace(Recipes as IIngredient[][IIngredient][IItemStack][string])
-    {
+    function AddArcFurnace(Recipes as IIngredient[][IIngredient][IItemStack][string]) {
         for Type, Recipe in Recipes {
             for Output, InputList in Recipe {
                 for Input, Inputs in InputList {
@@ -92,10 +91,21 @@ zenClass ImmersiveEngineering
         }
     }
 
-    function RemoveArcFurnace(Outputs as IItemStack[])
-    {
+    function RemoveArcFurnace(Outputs as IItemStack[]) {
         for Output in Outputs {
             ArcFurnace.removeRecipe(Output);
+        }
+    }
+
+    function AddAlloyKiln(Recipes as IIngredient[][IItemStack]) {
+        for Output, Inputs in Recipes {
+            AlloySmelter.addRecipe(Output, Inputs[0], Inputs[1], BaseTime.AlloyKiln * Output.amount);
+        }
+    }
+
+    function RemoveAlloyKiln(Outputs as IItemStack[]) {
+        for Output in Outputs {
+            AlloySmelter.removeRecipe(Output);
         }
     }
 }
