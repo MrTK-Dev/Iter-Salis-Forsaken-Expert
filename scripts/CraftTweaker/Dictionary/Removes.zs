@@ -39,5 +39,7 @@ Removes.FullyDisable([
     //Forestry
     <forestry:squeezer>,
     //Extra Utilities 2
-    <extrautils2:glasscutter>
+    <extrautils2:glasscutter>,
+    <extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
+    <extrautils2:machine>.withTag({Type: "extrautils2:furnace"})
 ]);
