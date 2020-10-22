@@ -5,7 +5,7 @@
         Dev Environment
                                 */
 
-zenClass Dev
+zenClass Debug
 {
     zenConstructor() {
 	}
@@ -35,4 +35,12 @@ zenClass Dev
     var Playtester as string = [
 
     ];
+
+    #|=======|Functions|=======|#
+
+    function Log(Message as string) {
+        if (isDevelopment) {
+            print(Message);
+        }
+    }
 }
