@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 
 global tools as IIngredient[string] =
 {
-    cutters: <ore:artisanscutters>,
+    cutters: <ore:artisansCutters>,
     hammer: <ore:artisansHammer>,
     framing_hammer: <ore:artisansFramingHammer>,
     handsaw: <ore:artisansHandsaw>,

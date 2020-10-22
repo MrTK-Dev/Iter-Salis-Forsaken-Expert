@@ -139,7 +139,7 @@ for i, Log in log_list
 {
     recipes.addShapeless(plank_list[i], [Log]);
 
-    recipes.addShapeless(plank_list[i] * 2, [ToolUsage("saw", 1), Log]);
+    recipes.addShapeless(plank_list[i] * 2, [ToolUsage("handsaw", 1), Log]);
 }
 
 #|=======|Sticks|=======|#
@@ -152,7 +152,7 @@ recipes.addShaped(<minecraft:stick> * 2, [
 ]);
 
 recipes.addShapeless(<minecraft:stick> * 4,
-    [ToolUsage("saw", 2), <ore:plankWood>, <ore:plankWood>]
+    [ToolUsage("handsaw", 2), <ore:plankWood>, <ore:plankWood>]
 );
 */
 /*
@@ -203,7 +203,7 @@ zenClass WoodUnifier
             [Log]
             ],
         Plank * 2: [
-            [ToolUsage("saw", 2), Log]
+            [ToolUsage("handsaw", 2), Log]
             ]
         });
     }*/

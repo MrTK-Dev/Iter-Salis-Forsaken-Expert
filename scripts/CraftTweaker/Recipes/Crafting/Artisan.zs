@@ -11,7 +11,7 @@ Recipes.AddShaped({
     //Carpenter Worktable
 <artisanworktables:worktable:1>: [
         [
-	[<ore:plankWood>, ToolUsage("saw", 3), <ore:plankWood>], 
+	[<ore:plankWood>, ToolUsage("handsaw", 3), <ore:plankWood>], 
 	[<ore:stickWood>, <ore:workbench>, <ore:stickWood>], 
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
         ]

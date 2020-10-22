@@ -12,14 +12,14 @@ Recipes.AddShaped({
 <exnihilocreatio:block_barrel0>: [
         [
 	[<ore:plankWood>, null, <ore:plankWood>], 
-	[<ore:plankWood>, ToolUsage("saw", 2), <ore:plankWood>], 
+	[<ore:plankWood>, ToolUsage("handsaw", 2), <ore:plankWood>], 
 	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
         ]
     ],
     //Wooden Crucible
 <exnihilocreatio:block_crucible_wood>: [
         [
-	[<ore:logWood>, ToolUsage("saw", 3), <ore:logWood>], 
+	[<ore:logWood>, ToolUsage("handsaw", 3), <ore:logWood>], 
 	[<ore:logWood>, <ore:slabWood>, <ore:logWood>], 
 	[<ore:stickWood>, <ore:gearWood>, <ore:stickWood>]
         ]

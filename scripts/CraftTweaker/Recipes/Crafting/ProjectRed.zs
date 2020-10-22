@@ -76,7 +76,7 @@ Recipes.AddShaped({
     //Silicon Boule
 <ore:ballSilicon>.firstItem * 3: [
         [
-	[ToolUsage("saw", 4)], 
+	[ToolUsage("handsaw", 4)], 
 	[<ore:bouleSilicon>]
         ]
     ]

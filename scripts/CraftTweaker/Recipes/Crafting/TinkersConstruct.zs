@@ -50,7 +50,7 @@ Recipes.AddShaped({
 Recipes.AddShapeless({
     //Blank Pattern
 <tconstruct:pattern> * 2: [
-    [ToolUsage("saw", 2), <thermalfoundation:material:801>]
+    [ToolUsage("handsaw", 2), <thermalfoundation:material:801>]
     ],
     //EFLN
 <tconstruct:throwball:1>: [
