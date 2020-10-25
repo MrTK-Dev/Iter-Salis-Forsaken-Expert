@@ -13,8 +13,7 @@ zenClass Artisan
     zenConstructor() {
 	}
 
-    function AddShaped(TableType as string, Output as IItemStack, Recipe as IIngredient[][], ToolList as int[IIngredient], Fluid as ILiquidStack, ExtraOutputs as float[IItemStack])
-    {
+    function AddShaped(TableType as string, Output as IItemStack, Recipe as IIngredient[][], ToolList as int[IIngredient], Fluid as ILiquidStack, ExtraOutputs as float[IItemStack]) {
         var newRecipe = RecipeBuilder.get(TableType);
 
             newRecipe.setShaped(Recipe);
@@ -25,29 +24,23 @@ zenClass Artisan
                 newRecipe.addTool(Tool, Durability);
             }
 
-            if (!isNull(Fluid))
-            {
+            if (!isNull(Fluid)) {
                 newRecipe.setFluid(Fluid);
             }
 
-            if (ExtraOutputs.length != 0)
-            {
+            if (ExtraOutputs.length != 0) {
                 var Counter as int = 0;
 
-                for Item, Chance in ExtraOutputs
-                {
-                    if (Counter == 0)
-                    {
+                for Item, Chance in ExtraOutputs {
+                    if (Counter == 0) {
                         newRecipe.setExtraOutputOne(Item, Chance);
                     }
 
-                    else if (Counter == 1)
-                    {
+                    else if (Counter == 1) {
                         newRecipe.setExtraOutputTwo(Item, Chance);
                     }
 
-                    else if (Counter == 2)
-                    {
+                    else if (Counter == 2) {
                         newRecipe.setExtraOutputThree(Item, Chance);
                     }
                 }
