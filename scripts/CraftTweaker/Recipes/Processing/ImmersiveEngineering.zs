@@ -64,3 +64,16 @@ ImmersiveEngineering.RemoveArcFurnace([
 ImmersiveEngineering.AddAlloyKiln({
     <ore:plateCoal>.firstItem * 3: [<ore:blockCoal>, <ore:plateLead>]
 });
+
+#|=======|Coke Oven|=======|#
+
+ImmersiveEngineering.RemoveCokeOven([
+    <immersiveengineering:material:6>,
+    <immersiveengineering:stone_decoration:3>,
+    <minecraft:coal:1>
+]);
+
+ImmersiveEngineering.AddCokeOven(<actuallyadditions:item_misc:11> * 4, <ore:logWood>, 100);
+ImmersiveEngineering.AddCokeOven(<minecraft:coal:1> * 4, <forestry:wood_pile>, 250);
+ImmersiveEngineering.AddCokeOven(<ore:fuelCoke>.firstItem, <ore:coal>, 500);
+ImmersiveEngineering.AddCokeOven(<ore:blockFuelCoke>.firstItem, <ore:blockCoal>, 4500);
