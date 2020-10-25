@@ -7,7 +7,7 @@ crash-reports
 downloads
 local
 logs
-mods
+mods/*
 saves
 mputils
 resourcepacks
