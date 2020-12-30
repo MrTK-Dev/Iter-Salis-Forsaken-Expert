@@ -232,7 +232,7 @@ Artisan.AddShaped(
     [<ore:plankWood>],
     [<ore:plankWood>]
         ],
-    {tools.saw: 3},
+    {tools.handsaw: 3},
     <liquid:water> * 50, {<ore:dustWood>.firstItem: 0.15}
 );
 
@@ -263,7 +263,7 @@ for Name, Wood in woods
                 "carpenter", Planks * 3, [
                 [Log]
                     ],
-                {tools.saw: 3},
+                {tools.handsaw: 3},
                 <liquid:water> * 50, {<ore:dustWood>.firstItem: 0.2}
             );
         }
@@ -283,7 +283,7 @@ for Name, Wood in woods
                 [Planks, <ore:fiberHemp>, Planks], 
                 [Planks, Planks, Planks]
                     ],
-                {tools.saw: 3},
+                {tools.handsaw: 3},
                 <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
             );
         }
@@ -304,7 +304,7 @@ for Name, Wood in woods
                     [Planks, Planks, woods[Name].button], 
                     [Planks, Planks, null]
                         ],
-                    {tools.saw: 3},
+                    {tools.handsaw: 3},
                     <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
                 );
             } else {
@@ -314,7 +314,7 @@ for Name, Wood in woods
                     [Planks, Planks, <ore:buttonWood>], 
                     [Planks, Planks, null]
                         ],
-                    {tools.saw: 3},
+                    {tools.handsaw: 3},
                     <liquid:water> * 150, {<ore:dustWood>.firstItem: 0.25}
                 );
             }

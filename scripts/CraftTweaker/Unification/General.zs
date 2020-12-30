@@ -1,5 +1,10 @@
 #priority 2000
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import scripts.CraftTweaker.Functions;
+import crafttweaker.oredict.IOreDictEntry;
+
+#|=======|Unifier|=======|#
+
+Removes.Unify({
+    <ore:fuelCoke> as IOreDictEntry: <thermalfoundation:material:802>,
+    <ore:blockFuelCoke> as IOreDictEntry: <thermalfoundation:storage_resource:1>
+});
