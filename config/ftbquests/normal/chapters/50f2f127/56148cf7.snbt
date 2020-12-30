@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "31d4fc7d",
+		type: "item",
+		items: [{
+			item: "embers:wildfire_core"
+		}]
+	}]
+}

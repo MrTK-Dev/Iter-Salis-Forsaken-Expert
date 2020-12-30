@@ -12,6 +12,9 @@ global Forestry as scripts.CraftTweaker.Functions.Mods.forestry.Forestry = scrip
 global Roots as scripts.CraftTweaker.Functions.Mods.roots.Roots = scripts.CraftTweaker.Functions.Mods.roots.Roots();
 global AE as scripts.CraftTweaker.Functions.Mods.appliedenergistics.AE = scripts.CraftTweaker.Functions.Mods.appliedenergistics.AE();
 global ThermalEXP as scripts.CraftTweaker.Functions.Mods.thermalsuite.ThermalEXP = scripts.CraftTweaker.Functions.Mods.thermalsuite.ThermalEXP();
+global Mekanism as scripts.CraftTweaker.Functions.Mods.mekanism.Mekanism = scripts.CraftTweaker.Functions.Mods.mekanism.Mekanism();
+global EnderIO as scripts.CraftTweaker.Functions.Mods.enderio.EnderIO = scripts.CraftTweaker.Functions.Mods.enderio.EnderIO();
+global Chisel as scripts.CraftTweaker.Functions.Mods.chisel.Chisel = scripts.CraftTweaker.Functions.Mods.chisel.Chisel();
 
 //Vanilla
 global Furnace as scripts.CraftTweaker.Functions.furnace.Furnace = scripts.CraftTweaker.Functions.furnace.Furnace();

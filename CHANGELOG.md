@@ -9,19 +9,43 @@ Releases marked with "- A(lpha)" are only Commits in the Development of the Pack
 
 ## [Unreleased]
 
-## [0.0.3 - Alpha] - 27/07/2020
+## [0.0.3 - Alpha] - 21/10/2020
 
 ### Added
 
 - new functions in the AE class
+- ThaumTweaks 0.2.4
+- Thaumic Speedup 1.4
+- NuclearCraft: Overhauled 2o.4.7
 
 ### Changed
 
 - configured Minimap settings
 - player no longer spawns with the valkyrieLib & astral sorcery guide
 - changed artisan to have tables instead of shops
+- added config/Guide-API/Guide-API.cfg to .gitignore
+- updated Bewitchment from 0.0.22.24 to 0.0.22.41
+- updated Dynamistics from 1.0.1 to 1.0.2
+- updated Thaumic Additions: Reconstructed from 12.4.3 to 12.6.5
+- updated ThermalLogistics from 0.2-29 to 0.3-40
+- updated Hammer (Lib) Core from 2.0.6.19 to 2.0.6.23
+- bumped Simply Jetpacks 2 from 2.2.14.67 to 2.2.16.1
+- bumped Immersive Technology from 1.7.71 to 1.8.84
+- bumped DupeFix Project from 2.4.1 to 3.0.3
+- bumped Artisan Worktables from 1.23.6 to 1.24.0
+- bumped Athenaeum [lib] from 1.19.1 to 1.19.2
+- bumped Solar Flux Reborn from 12.3.8 to 12.4.11
+- //--- current
+- bumped Controlling from 3.0.9 to 3.0.10
+- bumped Just Enough Calculation from 3.2.3 to 3.2.4
+- bumped Tweakers Construct from 1.5.4 to 1.5.5
+- bumped xXx_MoreToolMats_xXx (PlusTiC) from 8.0.1.0 to 8.0.2
+- bumped CraftTweaker from 4.1.20.582 to 4.1.20.594
 
 ### Removed
+
+- Better Questing and Addons
+- NuclearCraft
 
 ## [0.0.2 - Alpha] - 27/07/2020
 

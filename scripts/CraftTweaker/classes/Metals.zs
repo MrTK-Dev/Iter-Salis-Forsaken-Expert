@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 //"Preferred Items"
 global metal_parts as IItemStack[string][string] = {
-    #Minecraft
+    //Minecraft
 	iron: {
         nugget: <minecraft:iron_nugget:0>,
         ingot: <minecraft:iron_ingot:0>,
@@ -43,7 +43,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: <netherendingores:ore_end_vanilla:3>,
         cluster: <thaumcraft:cluster:1>,
 	},
-    #Botania
+    //Botania
 	manasteel: {
         nugget: <botania:manaresource:17>,
         ingot: <botania:manaresource:0>,
@@ -82,7 +82,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-	/*elementium: {
+	elvenelementium: {
         nugget: <botania:manaresource:19>,
         ingot: <botania:manaresource:7>,
 		block: <botania:storage:2>,
@@ -100,7 +100,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreNether: null,
         //oreEnd: null,
         cluster: null
-    },*/
+    },
     gaiaspirit: {
         nugget: null,
         ingot: <botania:manaresource:14>,
@@ -120,7 +120,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Astral Sorcery
+    //Astral Sorcery
 	starmetal: {
         nugget: null,
         ingot: <astralsorcery:itemcraftingcomponent:1>,
@@ -140,7 +140,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Avaritia
+    //Avaritia
 	matrix: {
         nugget: null,
         ingot: <avaritia:resource:1>,
@@ -166,8 +166,8 @@ global metal_parts as IItemStack[string][string] = {
 		block: <avaritia:block_resource:0>,
 		dust: null,
         //dustSmall: null,
-		#gear: <moreplates:neutronium_gear>,
-		#plate: <moreplates:neutronium_plate>,
+		//gear: <moreplates:neutronium_gear>,
+		//plate: <moreplates:neutronium_plate>,
 		rod: null,
     	liquid: null,
 		clump: null,
@@ -198,7 +198,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Draconic Evolution
+    //Draconic Evolution
 	draconium: {
         nugget: <draconicevolution:nugget:0>,
         ingot: <draconicevolution:draconium_ingot:0>,
@@ -237,7 +237,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #TSeries Addons
+    //TSeries Addons
     electrumflux: {
         nugget: <redstonearsenal:material:64>,
         ingot: <redstonearsenal:material:32>,
@@ -276,7 +276,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Tech Reborn
+    //Tech Reborn
     brass: {
         //nugget: <techreborn:nuggets:1>,
         //ingot: <techreborn:ingot:1>,
@@ -410,7 +410,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Ender IO
+    //Ender IO
     conductiveiron: {
         nugget: <enderio:item_alloy_nugget:4>,
         ingot: <enderio:item_alloy_ingot:4>,
@@ -700,7 +700,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Extended Crafting
+    //Extended Crafting
     blackiron: {
         nugget: <extendedcrafting:material:1>,
         ingot: <extendedcrafting:material:0>,
@@ -755,7 +755,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Immersive Engineering
+    //Immersive Engineering
     uranium: {
         nugget: <immersiveengineering:metal:25>,
         ingot: <immersiveengineering:metal:5>,
@@ -794,7 +794,24 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Mekanism
+    tungsten: {
+        nugget: <immersiveintelligence:material_nugget:3>,
+        ingot: <immersiveintelligence:material_ingot:3>,
+        block: <immersiveintelligence:storage:2>,
+        dust: <immersiveintelligence:material_dust:3>,
+        gear: <immersiveintelligence:motor_gear:4>.withTag({gear_damage: 0}),
+        plate: <immersiveintelligence:material_plate:3>,
+        ore: <immersiveintelligence:ore:2>
+    },
+    zinc: {
+        nugget: <immersiveintelligence:material_nugget:4>,
+        ingot: <immersiveintelligence:material_ingot:4>,
+		block: <immersiveintelligence:storage:1>,
+		dust: <immersiveintelligence:material_dust:4>,
+		plate: <immersiveintelligence:material_plate:4>,
+        ore: <immersiveintelligence:ore:1>
+    },
+    //Mekanism
     refinedobsidian: {
         nugget: <mekanism:nugget:0>,
         ingot: <mekanism:ingot:0>,
@@ -852,7 +869,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: <netherendingores:ore_end_modded_1:11>,
         cluster: null
     },
-    #Mystical Agriculture
+    //Mystical Agriculture
     baseessence: {
         nugget: <mysticalagriculture:crafting:39>,
         ingot: <mysticalagriculture:crafting:32>,
@@ -1016,7 +1033,7 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #Thaumcraft
+    //Thaumcraft
     thaumium: {
         nugget: <thaumcraft:nugget:6>,
         ingot: <thaumcraft:ingot:0>,
@@ -1071,7 +1088,25 @@ global metal_parts as IItemStack[string][string] = {
         //oreEnd: null,
         cluster: null
     },
-    #TSeries
+    mithrillium: {
+        nugget: <thaumadditions:mithrillium_nugget:0>,
+        ingot: <thaumadditions:mithrillium_ingot:0>,
+		block: <thaumadditions:mithrillium_block:0>,
+		plate: <thaumadditions:mithrillium_plate:0>
+    },
+    adaminite: {
+        nugget: <thaumadditions:adaminite_nugget:0>,
+        ingot: <thaumadditions:adaminite_ingot:0>,
+		block: <thaumadditions:adaminite_block:0>,
+		plate: <thaumadditions:adaminite_plate:0>
+    },
+    mithminite: {
+        nugget: <thaumadditions:mithminite_nugget:0>,
+        ingot: <thaumadditions:mithminite_ingot:0>,
+		block: <thaumadditions:mithminite_block:0>,
+		plate: <thaumadditions:mithminite_plate:0>
+    },
+    //TSeries
     copper: {
         nugget: <thermalfoundation:material:192>,
         ingot: <thermalfoundation:material:128>,
@@ -1345,7 +1380,7 @@ global metal_parts as IItemStack[string][string] = {
         nugget: <thermalfoundation:material:230>,
         ingot: <thermalfoundation:material:166>,
         block: <thermalfoundation:storage_alloy:6>,
-        dust: <thermalfoundation:material:101>,
+        dust: <thermalfoundation:material:102>,
         //dustSmall: null,
         gear: <thermalfoundation:material:294>,
         plate: <thermalfoundation:material:358>,
@@ -1356,36 +1391,81 @@ global metal_parts as IItemStack[string][string] = {
         nugget: <thermalfoundation:material:231>,
         ingot: <thermalfoundation:material:167>,
         block: <thermalfoundation:storage_alloy:7>,
-        dust: <thermalfoundation:material:102>,
+        dust: <thermalfoundation:material:103>,
         //dustSmall: null,
         gear: <thermalfoundation:material:295>,
         plate: <thermalfoundation:material:359>,
         rod: <moreplates:enderium_stick:0>,
         liquid: null
     },
-    #ContentTweaker
+    //Bewitchment
+    coldiron: {
+        nugget: <bewitchment:cold_iron_nugget:0>,
+        ingot: <bewitchment:cold_iron_ingot:0>,
+        block: <bewitchment:block_of_cold_iron:0>,
+        plate: <bewitchment:cold_iron_plate:0>
+    },
+    //Embers
+    dawnstone: {
+        nugget: <embers:nugget_dawnstone>,
+        ingot: <embers:ingot_dawnstone>,
+		block: <embers:block_dawnstone>,
+		plate: <embers:plate_dawnstone>
+    },
+    //Tinkers Construct
     ardite: {
-        //nugget: <contenttweaker:nugget_ardite>,
-        //ingot: <contenttweaker:ingot_ardite>,
-		//block: <contenttweaker:block_ardite>,
-		//dust: <materialpart:ardite:dust>,
-		//plate: <contenttweaker:plate_ardite>,
+        nugget: <tconstruct:nuggets:1>,
+        ingot: <tconstruct:ingots:1>,
+		block: <tconstruct:metal:1>,
+		//dust: <enderio:item_material:30>,
+        gear: <moreplates:ardite_gear>,
+		plate: <moreplates:ardite_plate>,
 		//clump: <materialpart:ardite:clump>,
 		//crystal: <materialpart:ardite:crystal>,
 		//dirtyDust: <materialpart:ardite:dust_dirty>,
 		//shard: <materialpart:ardite:shard>,
-        //ore: <contenttweaker:ore_ardite>,
+        ore: <tconstruct:ore:1>
     },
     cobalt: {
-        //nugget: <contenttweaker:nugget_cobalt>,
-        //ingot: <contenttweaker:ingot_cobalt>,
-		//block: <contenttweaker:block_cobalt>,
-		//dust: <materialpart:cobalt:dust>,
-		//plate: <contenttweaker:plate_cobalt>,
-		//clump: <materialpart:cobalt:clump>,
-		//crystal: <materialpart:cobalt:crystal>,
-		//dirtyDust: <materialpart:cobalt:dust_dirty>,
-		//shard: <materialpart:cobalt:shard>,
-        //ore: <contenttweaker:ore_cobalt>,
+        nugget: <tconstruct:nuggets:0>,
+        ingot: <tconstruct:ingots:0>,
+		block: <tconstruct:metal:0>,
+		//dust: <enderio:item_material:31>,
+        gear: <moreplates:cobalt_gear>,
+		plate: <moreplates:cobalt_plate>,
+		//clump: <materialpart:ardite:clump>,
+		//crystal: <materialpart:ardite:crystal>,
+		//dirtyDust: <materialpart:ardite:dust_dirty>,
+		//shard: <materialpart:ardite:shard>,
+        ore: <tconstruct:ore:0>
+    },
+	knightslime: {
+        nugget: <tconstruct:nuggets:3>,
+        ingot: <tconstruct:ingots:3>,
+		block: <tconstruct:metal:3>,
+		gear: <moreplates:knightslime_gear>,
+		plate: <moreplates:knightslime_plate>
     }
 };
+
+/*
+	null: {
+        nugget: null,
+        ingot: null,
+		block: null,
+		dust: null,
+        dustSmall: null,
+		gear: null,
+		plate: null,
+		rod: null,
+    	liquid: null,
+		clump: null,
+		crystal: null,
+		dirtyDust: null,
+		shard: null,
+        ore: null,
+        oreNether: null,
+        oreEnd: null,
+        cluster: null
+    },
+*/
