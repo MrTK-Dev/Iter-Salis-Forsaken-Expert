@@ -20,7 +20,7 @@ zenClass Debug
     var PackName as string = "Iter Salis Forsaken Expert";
     var PackName_short as string = "ISFE";
 
-    var Version as string = "0.0.1";
+    var Version as string = "0.0.3";
     var Version_int as int = 1;
     var State as string = "ALPHA";
 
@@ -28,11 +28,11 @@ zenClass Debug
 
     var Creator as string = "MrTK";
 
-    var Contributer as string = [
+    var Contributer as string[] = [
 
     ];
 
-    var Playtester as string = [
+    var Playtester as string[] = [
 
     ];
 
@@ -43,4 +43,8 @@ zenClass Debug
             print(Message);
         }
     }
+
+    #|=======|Statistics|=======|#
+
+    var RecipeAdditions as int = 0;
 }
