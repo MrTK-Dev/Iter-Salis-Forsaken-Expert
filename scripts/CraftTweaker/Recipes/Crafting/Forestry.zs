@@ -11,9 +11,9 @@ Recipes.AddShaped({
     //Carpenter
 <forestry:carpenter>: [
         [
-	[<ore:ingotCrudeSteel>, <ore:circuitBasic>, <ore:ingotCrudeSteel>], 
-	[<immersiveengineering:metal_device0:4>, <forestry:sturdy_machine>, <immersiveengineering:metal_device0:4>], 
-	[<ore:ingotCrudeSteel>, <projectred-core:resource_item:410>, <ore:ingotCrudeSteel>]
+	[<ore:plankTreatedWood>, <ore:circuitBasic>, <ore:plankTreatedWood>], 
+	[<ore:plateCrudeSteel>, <forestry:sturdy_machine>, <ore:plateCrudeSteel>], 
+	[<ore:plankTreatedWood>, <projectred-core:resource_item:410>, <ore:plankTreatedWood>]
         ]
 ]
 });
@@ -24,3 +24,9 @@ Recipes.Remove([
     <forestry:sturdy_machine>,
     <forestry:carpenter>
 ]);
+
+Recipes.RemoveByName({
+   "forestry": [
+        "wood_pile"
+   ]
+});

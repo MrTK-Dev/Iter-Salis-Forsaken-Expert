@@ -92,3 +92,9 @@ Recipes.Remove([
     <minecraft:hopper>,
     <minecraft:tnt>
 ]);
+
+Recipes.RemoveByName({
+   "minecraft": [
+        "stick"
+   ]
+});

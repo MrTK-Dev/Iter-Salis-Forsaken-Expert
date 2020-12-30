@@ -23,11 +23,19 @@ Recipes.AddShaped({
 	[<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>], 
 	[<ore:rodStone>, <ore:cobblestone>, <ore:rodStone>]
         ]
+    ],
+    //Compressed Sawdust
+<thermalfoundation:material:801>: [
+        [
+	[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>], 
+	[<ore:dustWood>, ToolUsage("hammer", 2), <ore:dustWood>], 
+	[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]
+        ]
     ]
 });
 
 #|=======|Removes|=======|#
 
 Recipes.Remove([
-    
+    <thermalfoundation:material:801>
 ]);
