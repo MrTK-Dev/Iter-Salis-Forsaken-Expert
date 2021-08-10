@@ -41,5 +41,22 @@ Removes.FullyDisable([
     //Extra Utilities 2
     <extrautils2:glasscutter>,
     <extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:furnace"})
+    <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),
+    //RFTools
+    <rftools:invisible_shield_block>,
+    <rftools:notick_invisible_shield_block>,
+    <rftools:invisible_shield_block_opaque>,
+    <rftools:notick_invisible_shield_block_opaque>,
+    <rftools:solid_shield_block>,
+    <rftools:notick_solid_shield_block>,
+    <rftools:camo_shield_block>,
+    <rftools:notick_camo_shield_block>,
+    <rftools:solid_shield_block_opaque>,
+    <rftools:notick_solid_shield_block_opaque>,
+    <rftools:camo_shield_block_opaque>,
+    <rftools:notick_camo_shield_block_opaque>,
+    <rftools:coalgenerator>,
+    <rftools:storage_scanner>,
+    <rftools:remote_storage>,
+    <rftools:storage_scanner>
 ]);
